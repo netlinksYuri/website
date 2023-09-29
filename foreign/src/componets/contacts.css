@@ -1,0 +1,35 @@
+form {
+    background-color: transparent; /* Fundo transparente */
+    max-width: 400px; /* Largura máxima do formulário */
+    margin: 0 auto; /* Centralizar o formulário horizontalmente */
+    color: #293953;; /* Texto em branco */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    background-color: transparent; /* Fundo transparente */
+    color: #293953; /* Cor do texto */
+    border: 1px solid #293953; /* Borda de 1px sólido #293953 */
+    padding: 10px; /* Espaçamento interno */
+    width: 100%; /* Largura total */
+    margin-bottom: 20px; /* Espaçamento inferior entre os campos */
+    outline: none; /* Removendo a borda de foco padrão */
+  }
+  
+  /* Estilizando o botão de envio */
+  button[type="submit"] {
+    background-color: #293953; /* Cor de fundo */
+    color: white; /* Texto em branco */
+    border: 1px solid #293953; /* Borda de 1px sólido #293953 */
+    padding: 10px 20px; /* Espaçamento interno */
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #fff; /* Mudar a cor de fundo ao passar o mouse */
+    color: #293953; /* Mudar a cor do texto ao passar o mouse */
+  }
+  
