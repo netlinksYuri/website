@@ -4,20 +4,19 @@ import './Contact.css'
 export default function Contact() {
     return (
 <div>
-{/* sessao 1*/}
-<div className="  pt-5 pb-" >
+
    {/* sessa 8 -  */}
    <div className="ss8-C">
-          <div className="max-w-6xl mx-auto py-24 flex justify-center items-center">
+          <div className="max-w-6xl mx-auto py-2 sm:py-24 flex flex-col sm:flex-row  justify-center items-center px-8 sm:px-0  ">
       
 
-         <div className="flex justify-center my-16 basis-6/12 ">
-<div className=" py-8 px-12 ss3">
+         <div className="flex justify-center sm:my-16 my-8 basis-6/12  ">
+<div className=" sm:py-8 py-2 sm:px-12 px-2 ss3">
 <Contacts/>
 </div>
          </div>
-         <div className="flex justify-center my-16 basis-6/12 ">
-         <div className="flex flex-col  ">
+         <div className="flex  justify-center my-16 basis-6/12 ">
+         <div className="flex flex-col   ">
             <div className='flex flex-row text-white items-center mb-5'>
                <div>
                <img class="h-auto w-auto pr-4" src="2.png" alt="logo" />
@@ -77,17 +76,34 @@ export default function Contact() {
 
          </div>
        </div>
-       <div>
-       <div className="flex justify-center my-16 basis-6/12 ">
-
-         </div>
-         <div className="flex justify-center my-16 basis-6/12 ">
-
-         </div>
        
-         </div>
+         
        </div>
           </div>
+          <div className='flex flex flex-col sm:flex-row  justify-center items-center px-8 sm:px-0  justify-center'>
+          <div className="flex flex-col items-center justify-center my-16 basis-1/3 ">
+<h3 className=' pb-4'>
+André Schierz
+</h3>
+<p className=' pc'>
+Global Business Development VP  
+</p>
+<p className='font-bold pc'>
+phil.joslin@novafutura.com.br 
+</p>
+
+         </div>
+         <div className="flex flex-col items-center justify-center my-16 basis-1/3 ">
+         <h3 className=' pb-4'>
+         Phil Joslin
+</h3>
+<p className=' pc'>
+Senior Asia Business Development
+</p>
+<p className='font-bold pc'>
+andre.schierz@novafutura.com.br
+</p>
+         </div>
        </div>
        </div>
 

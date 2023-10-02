@@ -33,7 +33,7 @@ class Contacts extends Component {
     };
 
     return (
-      <div className='flex flex-col justify-center text-center bg-white p-16'>
+      <div className='flex flex-col justify-center text-center bg-white sm:p-16 p-8'>
         <h3 className=''>Get In Touch</h3>
         <h5 className=''>Please, fill our form</h5>
         <form onSubmit={this.handleSubmit}>

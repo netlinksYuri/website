@@ -2,33 +2,33 @@
 export default function Products() {
     return (
 <div>
-{/* sessa 1*/}
-<div className="ss3  py-16">
-        <div className=" max-w-6xl mx-auto ">
-          <h2 className=" font-light text-gray-50 py-8 ">
+     {/* sessao 1 - Products*/}
+     <div className="ss3  py-16">
+        <div className=" max-w-6xl sm:max-md sm:mx-auto  ">
+          <h2 className=" font-light text-gray-50 py-8 pl-8 sm:pl-0  ">
             Products
           </h2>
-          <div className=" flex flex-row justify-between ">
-            <div className=" flex-col basis-1/5  ">
+          <div className=" flex flex-col sm:flex-row justify-between ">
+            <div className=" flex-col basis-1/4 px-8 sm:pl-8   ">
               <h3 className="pt-2 font-normal  text-gray-50  text-left mb-2">
                 Equities
               </h3>
               <div className="border-solid border-2 card1 py-6 px-8 text-left ">
                 <ul className=" flex flex-col  justify-center align-middle font-semibold  text-gray-50 text-xs ">
                 
-                  <li className=" font-semibold  text-gray-50  py-3 ">Cash Equities</li>
-                  <li className=" font-semibold  text-gray-50  py-3 ">Single Stock futures</li>
-                  <li className=" font-semibold  text-gray-50  py-3 ">ETFs</li>
-                  <li className=" font-semibold  text-gray-50  py-3 ">Equity and Index</li>
-                  <li className=" font-semibold  text-gray-50  py-3 ">Stock lending</li>
-                  <li className=" font-semibold  text-gray-50  py-3 ">BDRs</li>
-                  <li className=" font-semibold  text-gray-50  py-3 ">Options</li>
-                  <li className=" font-semibold  text-gray-50  py-3 "> Digital Options</li>
+                  <li className=" font-semibold  text-gray-50  py-2 ">Cash Equities</li>
+                  <li className=" font-semibold  text-gray-50  py-2 ">Single Stock futures</li>
+                  <li className=" font-semibold  text-gray-50  py-2 ">ETFs</li>
+                  <li className=" font-semibold  text-gray-50  py-2 ">Equity and Index</li>
+                  <li className=" font-semibold  text-gray-50  py-2 ">Stock lending</li>
+                  <li className=" font-semibold  text-gray-50  py-2 ">BDRs</li>
+                  <li className=" font-semibold  text-gray-50  py-2 ">Options</li>
+                  <li className=" font-semibold  text-gray-50  py-2 "> Digital Options</li>
                   
                 </ul>
               </div>
             </div>
-            <div className=" flex flex-col basis-1/5 ">
+            <div className=" flex flex-col  basis-1/4 px-8 sm:pl-8 ">
               <h3 className="pt-2 font-normal  text-gray-50  text-left mb-2">
                 Futures
               </h3>
@@ -43,7 +43,7 @@ export default function Products() {
                 </ul>
               </div>
             </div>
-            <div className=" flex flex-col basis-1/5 ">
+            <div className=" flex flex-col basis-1/4 px-8 sm:pl-8 ">
               <h3 className="pt-2 font-normal  text-gray-50  text-left mb-2">
                 Fixed income
               </h3>
@@ -52,18 +52,18 @@ export default function Products() {
                   <h4 className="pt-2 font-medium  text-gray-50  text-center mb-2 border-b-2 py-2 text-sm">
                     Productcs
                   </h4>
-                  <li className=" font-semibold  text-gray-50  py-2 ">CDB (Certificate of Bank Deposit);</li>
-                  <li className=" font-semibold  text-gray-50  py-2 ">LC (Credit Letter);</li>
-                  <li className=" font-semibold  text-gray-50  py-2 ">LCI (Real Estate Credit Bills);</li>
-                  <li className=" font-semibold  text-gray-50  py-2 ">LCA (Agribusiness Credit Bills);</li>
-                  <li className=" font-semibold  text-gray-50  py-2 ">CRI (Real Estate Receivables Certificate);</li>
-                  <li className=" font-semibold  text-gray-50  py-2 ">CRA (Agribusiness Receivables Certificate);</li>
-                  <li className=" font-semibold  text-gray-50  py-2 ">Corporate Bonds;</li>
-                  <li className=" font-semibold  text-gray-50  py-2 ">Government Bonds.</li>
+                  <li className=" font-semibold  text-gray-50  py-1 ">CDB (Certificate of Bank Deposit);</li>
+                  <li className=" font-semibold  text-gray-50  py-1 ">LC (Credit Letter);</li>
+                  <li className=" font-semibold  text-gray-50  py-1 ">LCI (Real Estate Credit Bills);</li>
+                  <li className=" font-semibold  text-gray-50  py-1 ">LCA (Agribusiness Credit Bills);</li>
+                  <li className=" font-semibold  text-gray-50  py-1 ">CRI (Real Estate Receivables Certificate);</li>
+                  <li className=" font-semibold  text-gray-50  py-1 ">CRA (Agribusiness Receivables Certificate);</li>
+                  <li className=" font-semibold  text-gray-50  py-1 ">Corporate Bonds;</li>
+                  <li className=" font-semibold  text-gray-50  py-1 ">Government Bonds.</li>
                 </ul>
               </div>
             </div>
-            <div className=" flex flex-col basis-1/5  ">
+            <div className=" flex flex-col basis-1/4 px-8 sm:pl-8  ">
               <h3 className="pt-2 font-normal  text-gray-50  text-left mb-2">
                 <br />
               </h3>
@@ -83,79 +83,79 @@ export default function Products() {
             </div>
 
           </div>
-          <h3 className="pt-8 font-normal  text-gray-50  text-left mb-5">
+          <h3 className="pt-8 px-8 sm:pl-8 font-normal  text-gray-50  text-left mb-5">
             Execution Services
           </h3>
-          <div className=" flex flex-row justify-between items-center text-center">
+          <div className=" flex flex-col sm:flex-row  justify-between sm:items-center sm:mx-8 text-center">
 
-            <div className=" flex flex-col basis-1/5 bnt-p py-3  text-gray-50">
+            <div className=" flex flex-col basis-1/2 sm:basis-1/5 bnt-p py-3 px-4 mb-5 text-gray-50">
               Direct Market Access (DMA)
             </div>
-            <div className=" flex flex-col basis-1/5 bnt-p py-3  text-gray-50">
+            <div className=" flex flex-col basis-1/2 sm:basis-1/5 bnt-p py-3 px-4 mb-5  text-gray-50">
               Colocation services
             </div>
-            <div className=" flex flex-col basis-1/5 bnt-p py-3  text-gray-50">
+            <div className=" flex flex-col basis-1/2 sm:basis-1/5 bnt-p py-3 px-4 mb-5  text-gray-50">
               Integration services
             </div>
-            <div className=" flex flex-col basis-1/5 bnt-p py-3  text-gray-50">
+            <div className=" flex flex-col basis-1/2 sm:basis-1/5 bnt-p py-3 px-4 mb-5  text-gray-50">
               Voice/Chat Execution
             </div>
           </div>
-          <h3 className="pt-8 font-normal  text-gray-50  text-left  my-5">
+          <h3 className="pt-8 px-8 sm:pl-8 font-normal  text-gray-50  text-left  my-5">
             Customers We Serve
           </h3>
-          <div className=" flex flex-row justify-between items-center text-center">
+          <div className=" flex flex-col sm:flex-row  justify-between items-center sm:mx-8 text-center">
 
-            <div className=" flex flex-col basis-1/7  py-3  text-gray-50">
+            <div className=" flex flex-col basis-1/2 sm:basis-1/7  py-3  text-gray-50">
               <img class="h-auto w-auto" src="div.e-con-inner.png" alt="logo" />
             </div>
-            <div className=" flex flex-col basis-1/7  py-3  text-gray-50">
+            <div className=" flex flex-col basis-1/2 sm:basis-1/7  py-3  text-gray-50">
               <img class="h-auto w-auto" src="div.e-con-inner-1.png" alt="logo" />
             </div>
-            <div className=" flex flex-col basis-1/7  py-3  text-gray-50">
+            <div className=" flex flex-col basis-1/2 sm:basis-1/7  py-3  text-gray-50">
               <img class="h-auto w-auto" src="div.e-con-inner-2.png" alt="logo" />
             </div>
-            <div className=" flex flex-col basis-1/7  py-3  text-gray-50">
+            <div className=" flex flex-col basis-1/2 sm:basis-1/7  py-3  text-gray-50">
               <img class="h-auto w-auto" src="div.e-con-inner-3.png" alt="logo" />
             </div>
-            <div className=" flex flex-col basis-1/7  py-3  text-gray-50">
+            <div className=" flex flex-col basis-1/2 sm:basis-1/7  py-3  text-gray-50">
               <img class="h-auto w-auto" src="div.e-con-inner-4.png" alt="logo" />
             </div>
-            <div className=" flex flex-col basis-1/7  py-3  text-gray-50">
+            <div className=" flex flex-col basis-1/2 sm:basis-1/7  py-3  text-gray-50">
               <img class="h-auto w-auto" src="div.e-con-inner-5.png" alt="logo" />
             </div>
-            <div className=" flex flex-col basis-1/7  py-3  text-gray-50">
+            <div className=" flex flex-col basis-1/2 sm:basis-1/7  py-3  text-gray-50">
               <img class="h-auto w-auto" src="div.e-con-inner-6.png" alt="logo" />
             </div>
           </div>
-          <h3 className="pt-8 font-normal  text-gray-50  text-left mb-5">
+          <h3 className="t-8 px-8 sm:pl-8 font-normal  text-gray-50  text-left  my-5">
           Highlights
           </h3>
-          <div className=" flex flex-row justify-between items-center text-center">
+          <div className=" flex flex-col sm:flex-row  justify-between sm:items-center sm:mx-8 text-center">
 
-            <div className=" flex flex-col basis-1/5 bnt-p py-3 mr-4 text-sm  text-gray-50">
+            <div className=" flex flex-col basis-1/5 bnt-p py-3 px-4 mb-5 sm:mr-4 text-sm  text-gray-50">
             Leverage
             </div>
-            <div className=" flex flex-col basis-1/5 bnt-p py-3 mr-4 text-sm  text-gray-50">
+            <div className=" flex flex-col basis-1/5 bnt-p py-3 px-4 mb-5 sm:mr-4 text-sm  text-gray-50">
             Competitive cost structure
             </div>
-            <div className=" flex flex-col basis-1/5 bnt-p py-3 mr-4 text-sm  text-gray-50">
+            <div className=" flex flex-col basis-1/5 bnt-p py-3 px-4 mb-5 sm:mr-4 text-sm  text-gray-50">
             Robust Infrastructure
             </div>
-            <div className=" flex flex-col basis-1/5 bnt-p py-3 mr-4 text-sm  text-gray-50">
+            <div className=" flex flex-col basis-1/5 bnt-p py-3 px-4 mb-5 sm:mr-4 text-sm  text-gray-50">
             Strong back-office and Clearing
             </div>
-            <div className=" flex flex-col basis-1/5 bnt-p py-3 mr-4 text-sm  text-gray-50">
+            <div className=" flex flex-col basis-1/5 bnt-p py-3 px-4 mb-5 sm:mr-4 text-sm  text-gray-50">
             Post Trade services
             </div>
           </div>
         </div>
       </div>
       {/* sessa 2*/}
-      <div className="flex justify-center items-center text-left max-w-6xl mx-auto py-24">
-        <h2>
-        Our founder is one of the founding<br/>
-         members of the local Futures<br/>
+      <div className="flex justify-center items-center text-left max-w-6xl mx-auto py-24 px-8 sm:px-0  ">
+        <h2 className="h2" >
+        Our founder is one of the founding <br className="sm:block hidden"/>
+        members of the local Futures <br className="sm:block hidden"/>
           Exchange formerly named BM&F.
         </h2>
       </div>
@@ -170,10 +170,12 @@ export default function Products() {
             </div>
           </div>
           <div className=" flex flex-col basis-7/12  justify-center  ">
-            <h3 className="font-bold text-left app text-gray-50 ">
-            We provide the best online experience,<br/> enabling the use of a wide range of <br/>platforms to serve all types of investors
+            <h3 className="font-bold text-left app text-lg text-gray-50 ">
+            We provide the best online experience, <br className="sm:block hidden"/> 
+            enabling the use of a wide range of <br className="sm:block hidden"/>
+            platforms to serve all types of investors
             </h3>
-            <p className="font-normal text-left  text-gray-50 mt-4 "><span className="font-bold">All your investments in one place.</span> <br/>
+            <p className="font-normal text-left text-sm text-gray-50 mt-4 "><span className="font-bold">All your investments in one place.</span> <br/>
             Download the Nova Futura app to invest<br/> 
             with freedom and all the support<br/>
             you may need.</p>

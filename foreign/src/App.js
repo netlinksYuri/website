@@ -6,13 +6,13 @@ export default function App() {
         <div>
             <header>
                 {/* sessa 1*/}
-                <div className=" ss1 pt-5 pb-" >
+                <div className=" ss1 px-8 sm:px-16 pt-5" >
                     {/* navegador*/}
                     <nav class=" header max-w-6xl mx-auto" >
                         <div class="   ">
                             <div class="   ">
                               
-                                <div class=" flex-row h-16 flex items-center sm:items-stretch sm:justify-start">
+                                <div class=" flex-row h-16 flex items-center justify-between sm:items-stretch sm:justify-between">
                                     <div class=" items-center ">
                                         <img class="h-16 w-auto" src="Logo NF_Positivo1 1.png" alt="logo" />
                                     </div>
@@ -29,7 +29,15 @@ export default function App() {
                                         <a href="#" class="btn-forms text-white py-2 px-4 font-medium" aria-current="page">Get in touch</a>
                                     </div>
                                 </div>
-
+                                <div class="flex-1  items-center justify-center sm:hidden block ">
+                                        <div class="flex h-16 items-center justify-center nav ">
+                                            <a href="/" class=" font-bold px-2 py-2 text-sx font-bold">HOME</a>
+                                            <a href="/About" class="font-bold  px-2 py-2 text-sx font-bold">ABOUT</a>
+                                            <a href="/Products" class="font-bold  px-2 py-2 text-sx font-bold">PRODUCTS</a>
+                                            <a href="/Services" class="font-bold  px-2 py-2 text-sx font-bold">SERVICES</a>
+                                            <a href="/Contact" class="font-bold  px-2 py-2 text-sx font-bold">CONTACT</a>
+                                        </div>
+                                        </div>
                             </div>
                         </div>
 
@@ -39,36 +47,38 @@ export default function App() {
 
                     {/* sessao 1 - Conteudo*/}
 
-                    <div class=" max-w-6xl mx-auto pt-24">
+                    <div class=" max-w-6xl mx-auto sm:pt-24 pt-12 ">
                         <h1 className="font-normal text-left">
                             Outstanding,<br />
                             trustworthy<br />
                             and secure
                         </h1>
                         <h5 className="border-l-2 card pl-5 mt-5 font-normal capaapp ">
-                            We are a solid broker and investment manager with<br />
-                            <span className="font-semibold">40 years of tradition.</span> <br />
-                            Throughout our history, we have been prominent in <br />
+                            We are a solid broker and investment manager with <br className='sm:block hidden' />
+                            <span className="font-semibold">40 years of tradition. </span> <br className='sm:block hidden' />
+                            Throughout our history, we have been prominent in <br className='sm:block hidden' />
                             equity and derivativemarkets.
                         </h5>
 
-                        <img className="max-w-2xl mt-12" src="s1-svgs.png" alt="diferenciais" />
+                        <img className="max-w-2xl sm:mt-12 mt-6 hidden  sm:block" src="s1-svgs.png" alt="diferenciais" />
+                        <img className="max-w-2xl sm:mt-12 mt-12 sm:hidden block" src="ss1.png" alt="diferenciais" />
+                    
                     </div>
                 </div>
 
             </header>
             <Outlet />
             <footer className='bg-gray-50 '>
-                <div className='flex flex-row max-w-6xl justify-center  mx-auto py-16 '>
+                <div className='flex flex-col sm:flex-row max-w-6xl justify-center  mx-auto py-16 px-8 sm:px-0 '>
                     <div className='flex flex-col basis-2/5 mr-12'>
-                        <img class="mr-72" src="Logo NF_Positivo1 1.png" alt="logo" />
+                        <img class=" mr-44 sm:mr-72" src="Logo NF_Positivo1 1.png" alt="logo" />
 
-                        <p className='py-6 ml-5 p font-normal'>
-                            We simplify investments with efficient services and<br />
-                            platforms. We have a complete portfolio of financial<br />
+                        <p className='py-3 sm:py-6 sm:ml-5 p font-normal'>
+                            We simplify investments with efficient services and <br className='sm:block hidden' />
+                            platforms. We have a complete portfolio of financial <br className='sm:block hidden' />
                             products to meet our diverse customer’s profiles.
                         </p>
-                        <div className='flex flex-row py-6 ml-5'>
+                        <div className='flex flex-row py-6 sm:ml-5'>
                             <div className='mr-5  rounded-md'>
                                 <img src="Link.png" alt="" />
                             </div>
@@ -94,28 +104,28 @@ export default function App() {
                     </div>
 
                     <div className='flex flex-col basis-1/5 '>
-                        <h5 className='uppercase font-normal tracking-widest'>
+                        <h5 className='uppercase font-normal tracking-widest mt-5 sm:mt-0 sm:mb-0 mb-4'>
                             SiteMap
                         </h5>
-                        <ul className='navf'>
-                            <li className=' mt-5 mb-8 font-semibold'>
+                        <ul className='navf flex sm:flex-col flex-row flex-wrap'>
+                            <li className=' sm:mt-5 mb-8  mr-10 font-semibold '>
                                 <a href="/">Home</a>
                             </li>
-                            <li className='mb-8 font-semibold'>
+                            <li className='mb-8  mr-10 font-semibold'>
                                 <a href="/About">About</a>
                             </li>
-                            <li className='mb-8 font-semibold'>
+                            <li className='mb-8  mr-10 font-semibold'>
                                 <a href="/Products">Products</a>
                             </li>
-                            <li className='mb-8 font-semibold'>
+                            <li className='mb-8  mr-10 font-semibold'>
                                 <a href="/Services">Services</a>
                             </li>
-                            <li className='mb-8 font-semibold'>
+                            <li className='mb-8  mr-10 font-semibold'>
                                 <a href="/Contact">Contact</a>
                             </li>
                         </ul>
                     </div>
-                    <div className='flex flex-col basis-1/5 mr-6'>
+                    <div className='flex flex-col basis-1/5 mr-6 mt-5 sm:mt-0'>
                         <h5 className='uppercase font-normal tracking-widest'>
                             Certifications
                         </h5>
@@ -130,17 +140,17 @@ export default function App() {
 
 
                     </div>
-                    <div className='flex flex-col basis-1/5 mr-6'>
+                    <div className='flex flex-col basis-1/5 mr-6 mt-5 sm:mt-0'>
                         <h5 className='uppercase font-normal tracking-widest'>
-                            Certifications
+                            Contact
                         </h5>
-                        <h3 className='text-left font-medium'>
+                        <h3 className='text-left font-bold h3'>
                             0800 724 3080
                         </h3>
                     </div>
                 </div>
                 <div className='ss3 py-4'>
-                    <h5 className='text-white text-center font-normal text-md'>
+                    <h5 className='text-white text-center font-normal sm:text-md text-sm'>
                     NOVA FUTURA CORRETORA DE TÍTULOS E VALORES LTDA.<br/>
 Al. Santos, 960 – 10th floor – 01418-002 – São Paulo – SP<br/>
 CNPJ: 04.257.795/0001-79

@@ -48,3 +48,10 @@ text-transform: uppercase;
 
   color: #25A7DB;
 }
+
+@media screen and (max-width: 500px)  {
+  
+  h1{
+        font-size: 48px;
+      }
+  }

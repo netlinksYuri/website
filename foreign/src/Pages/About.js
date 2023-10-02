@@ -3,12 +3,12 @@ export default function About() {
     return (
         <div>
             {/* sessao 1 - Linha do tempo */}
-            <div className="ss2 max-w-6xl mx-auto py-16">
+            <div className="ss2 max-w-6xl mx-auto py-16 ">
 
-                <h2 className=" font-semibold h2 ">
+                <h2 className=" font-semibold h2 px-8 sm:px-0 ">
                     The evolution of Nova Futura
                 </h2>
-                <div className="flex flex-col my-8">
+                <div className="flex flex-col my-8 sm:block hidden ">
                     <div className="flex flex-row justify-center left 1983">
                         <div className="basis-5/12 flex justify-center flex-col mt-8">
                             <h2 className='text-right font-bold uppercase'>
@@ -301,21 +301,24 @@ export default function About() {
                         </div>
                     </div>
                 </div>
+                <div className="flex flex-col my-8 sm:hidden block ">
+                <img className="mx-auto" src="line.png" alt="logo" />
+                </div>
 
             </div>
             {/* sessao 2 - Business Model */}
 
-            <div className="ss3  py-16">
+            <div className="ss3 px-8 sm:px-0 py-16">
                 <div className=" max-w-6xl mx-auto ">
                     <h2 className=" font-light text-gray-50 py-8 ">
                         Business model
                     </h2>
-                    <div className=" flex flex-row justify-between">
+                    <div className=" flex flex-col sm:flex-row justify-between">
                         <div className=" flex flex-col basis-6/12  justify-center  items-center ">
-                            <h3 className=" pt-2 font-semibold  text-gray-50 text-left mb-2 ">
+                            <h3 className=" pt-2 font-semibold sm:text-md text-lg text-gray-50 text-left mb-2 ">
                                 Broker and Investment Manager
                             </h3>
-                            <div className="border-solid border-2 card1 py-6  text-left px-24 ">
+                            <div className="border-solid border-2 card1 py-6  text-left sm:px-24 px-12 ">
                                 <h3 className="text-white text-left font-light">
                                     <br />
 
@@ -335,7 +338,7 @@ export default function About() {
                             <h3 className="pt-2 font-normal  text-gray-50  text-left mb-2">
                                 <br />
                             </h3>
-                            <div className="border-solid border-2 card1 py-6 px-24 text-left">
+                            <div className="border-solid border-2 card1 py-6 sm:px-24 px-12 text-left">
                                 <h3 className="text-white text-left font-light">
                                     • B2C<br />
                                     • B2B<br />
@@ -387,95 +390,95 @@ export default function About() {
                 </div>
             </div>
 
-            {/* sessao 3 - Get In Touch */}
-            <div className="ss2 max-w-6xl mx-auto py-16">
-                <h5 className="  font-semibold mt-5">
-                    WHERE TO FIND US
-                </h5>
-                <h2 className=" font-light h2 ">
-                    Get In Touch
-                </h2>
-                <div className="flex flex-row justify-center  max-w-4xl mx-auto p-24">
+         {/* sessao 3 - Get In Touch */}
+      <div className="ss2 max-w-6xl mx-auto py-16 px-8 sm:px-0">
+        <h5 className="  font-semibold mt-5">
+          WHERE TO FIND US
+        </h5>
+        <h2 className=" font-light h2 ">
+          Get In Touch
+        </h2>
+        <div className="flex flex-col sm:flex-row justify-center max-w-4xl mx-auto sm:p-24 ">
 
-                    <div className=" flex flex-col basis-1/2 border-solid border-2 justify- items-center p-3 card">
-                        <img class="h-auto w-auto" src="sp.png" alt="logo" />
-                        <div className="text-center">
-                            <h3 className="pt-2 font-semibold">
-                                SÃO PAULO - SP
-                            </h3>
-                            <p className="pt-2 font-semibold cardss2">
-                                Al Santos, 960 <br />
-                                10th floor - Postal Code 01418-002 <br />
-                                Phone: (11) 4020-6710
-                            </p>
-                        </div>
-                    </div>
-                    <div className=" flex flex-col basis-1/2  justify-end pl-5 ">
-                        <p className=" textss2 font-normal ">
-                            <span className="font-bold text-9x1 ">+ over 24 </span>
-                            <br />
-                            authorized<br />locals offices <br />in Brazil
-                        </p>
-                    </div>
-                </div>
-
-                <div className=" flex flex-row justify-around">
-                    <div className=" flex flex-col basis-1/3 border-solid border-2  iitems-center p-3 card2 mx-10">
-                        <img class="h-auto w-auto" src="pr.png" alt="logo" />
-                        <div className="text-center">
-                            <h3 className="pt-2 font-semibold">
-                                MARINGÁ - PR
-                            </h3>
-                            <p className="pt-2 font-semibold cardss2">
-                                Av. Pedro Tasques, 294 - 5th floor - Room 503<br />
-                                Postal Code 87030-000<br />
-                                Phone: (44) 330415615
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className=" flex flex-col basis-1/3 border-solid border-2 justify- items-center p-3 card2 mx-10">
-                        <img class="h-auto w-auto" src="rj.png" alt="logo" />
-                        <div className="text-center">
-                            <h3 className="pt-2 font-semibold">
-                                RIO DE JANEIRO - RJ
-                            </h3>
-                            <p className="pt-2 font-semibold cardss2">
-                                R. Sete de Setembro, 92 <br />
-                                Room 1609 and 1610<br />
-                                Postal Code 20050-002<br />
-                                Phone: (21) 25406661
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className=" flex flex-col basis-1/3 border-solid border-2 justify- items-center p-3 card2 mx-10">
-                        <img class="h-auto w-auto" src="ce.png" alt="logo" />
-                        <div className="text-center">
-                            <h3 className="pt-2 font-semibold">
-                                FORTALEZA - CE
-                            </h3>
-                            <p className="pt-2 font-semibold cardss2">
-                                Av. Des. Moreira, 2120 - 1808<br />
-                                Postal Code 60170-0020<br />
-                                Phone: (85) 4042-0967
-                            </p>
-                        </div>
-                    </div>
-                </div>
+          <div className=" flex flex-col sm:basis-1/2 basis-2/2 border-solid border-2 justify- items-center p-3 card mx-8 my-4 sm:mx-2">
+            <img class="h-auto w-auto" src="sp.png" alt="logo" />
+            <div className="text-center">
+              <h3 className="py-4 font-semibold h3g">
+                SÃO PAULO - SP
+              </h3>
+              <p className="py-2 font-semibold cardss2 ">
+                Al Santos, 960 <br />
+                10th floor - Postal Code 01418-002 <br />
+                Phone: (11) 4020-6710
+              </p>
             </div>
+          </div>
+          <div className=" flex flex-col basis-1/2  justify-end sm:pl-5 pl-0 my-4 ">
+            <p className=" textss2 font-normal sm:mt-10  my-3 sm:text-left text-center ">
+              <span className="font-bold  ">+over 24 </span>
+              <br className="sm:block hidden"  />
+              authorized <br className="sm:block hidden" />locals offices <br className="sm:block hidden" />in Brazil
+            </p>
+          </div>
+        </div>
+
+        <div className=" flex flex-col sm:flex-row justify-around max-w-4xl sm:max-w-6xl mx-auto">
+          <div className=" flex flex-col basis-1/3 border-solid border-2  items-center p-3 card2 sm:mx-6 mx-8 mb-8">
+            <img class="h-auto w-auto" src="pr.png" alt="logo" />
+            <div className="text-center">
+              <h3 className="py-4 font-semibold">
+                MARINGÁ - PR
+              </h3>
+              <p className="py-2 font-semibold cardss2">
+                Av. Pedro Tasques, 294 - 5th floor - Room 503<br />
+                Postal Code 87030-000<br />
+                Phone: (44) 330415615
+              </p>
+            </div>
+          </div>
+
+          <div className=" flex flex-col basis-1/3 border-solid border-2  items-center p-3 card2 sm:mx-6 mx-8 mb-8">
+            <img class="h-auto w-auto" src="rj.png" alt="logo" />
+            <div className="text-center">
+              <h3 className="py-4 font-semibold">
+                RIO DE JANEIRO - RJ
+              </h3>
+              <p className="py-2 font-semibold cardss2">
+                R. Sete de Setembro, 92 <br />
+                Room 1609 and 1610<br />
+                Postal Code 20050-002<br />
+                Phone: (21) 25406661
+              </p>
+            </div>
+          </div>
+
+          <div className=" flex flex-col basis-1/3 border-solid border-2  items-center p-3 card2 sm:mx-6 mx-8 mb-8">
+            <img class="h-auto w-auto" src="ce.png" alt="logo" />
+            <div className="text-center">
+              <h3 className="py-4 font-semibold">
+                FORTALEZA - CE
+              </h3>
+              <p className="py-2 font-semibold cardss2">
+                Av. Des. Moreira, 2120 - 1808<br />
+                Postal Code 60170-0020<br />
+                Phone: (85) 4042-0967
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
             {/* sessao 4 - Conteudo*/}
 
-            <div class=" max-w-6xl mx-auto py-24 flex flex-row justify-center items-center ">
+            <div class=" max-w-6xl mx-auto py-24 px-8 sm:px-0 flex flex-col sm:flex-row justify-center items-center ">
                 <div className='basis-1/3 flex items-center '>
                     <h3 className="font-semibold text-left">
                         Nova Futura is
                         active on all listed
                         products traded at
                         B3 Exchange and
-                        the largest<br />
-                        Independent broker<br />
+                        the largest<br className="sm:block hidden" />
+                        Independent broker<br className="sm:block hidden" />
                         in Brazil
                     </h3></div>
                 <div className='basis-1/2 flex items-center'>
@@ -492,39 +495,42 @@ export default function About() {
 
             {/* sessao 5*/}
             <div className="ss4 py-24">
-                <div className="flex flex-row justify-center  max-w-6xl mx-auto ">
+        <div className="flex flex-row justify-center  max-w-6xl mx-auto ">
 
-                    <div className=" flex flex-col basis-5/12  items-center p-3 card">
-                        <div className="text-left">
-                            <img className=" mx-auto" src="phoneProducts.png" alt="logo" />
-
-                        </div>
-                    </div>
-                    <div className=" flex flex-col basis-7/12  justify-center  ">
-                        <h3 className="font-bold text-left app text-gray-50 ">
-                            We provide the best online experience,<br /> enabling the use of a wide range of <br />platforms to serve all types of investors
-                        </h3>
-                        <p className="font-normal text-left  text-gray-50 mt-4 "><span className="font-bold">All your investments in one place.</span> <br />
-                            Download the Nova Futura app to invest<br />
-                            with freedom and all the support<br />
-                            you may need.</p>
-                        <div className="mt-12">
-                            <a href="#" class="btn-forms mt-4 py-2 px-5 text-gray-50" aria-current="page">Download now</a>
-                        </div>
-                    </div>
-                </div>
+          <div className=" flex flex-col basis-5/12  items-center p-3 card">
+            <div className="text-left">
+            <img className=" mx-auto" src="phoneProducts.png" alt="logo" />
+              
             </div>
+          </div>
+          <div className=" flex flex-col basis-7/12  justify-center  ">
+            <h3 className="font-bold text-left app text-lg text-gray-50 ">
+            We provide the best online experience, <br className="sm:block hidden"/> 
+            enabling the use of a wide range of <br className="sm:block hidden"/>
+            platforms to serve all types of investors
+            </h3>
+            <p className="font-normal text-left text-sm text-gray-50 mt-4 "><span className="font-bold">All your investments in one place.</span> <br/>
+            Download the Nova Futura app to invest<br/> 
+            with freedom and all the support<br/>
+            you may need.</p>
+            <div className="mt-12">
+            <a href="#" class="btn-forms mt-4 py-2 px-5 text-gray-50" aria-current="page">Download now</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
 
-            {/* sessao 4 - Conteudo*/}
 
-            <div class="  mx-auto py-24 max-w-6xl ">
+            {/* sessao 6 - Conteudo*/}
+
+            <div class="  mx-auto py-24 max-w-6xl px-8 sm:px-0 ">
                <h3 className="text-left  uppercase font-light my-5">
                Operational Qualification
                </h3>
-               <div class="  flex flex-row justify-center items-center ">
-                <div className='basis-1/3 flex items-center '>
+               <div class="  flex flex-col sm:flex-row  justify-center items-center ">
+                <div className='basis-1/3 flex items-center sm:pb-0 pb-5 '>
                    
                    <img src="b3About.png" alt="" />
                    </div>
