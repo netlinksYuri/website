@@ -23,4 +23,28 @@ body {
   font-stretch: expanded;
   max-width: auto;
   margin: auto;
+  
+}
+
+.cardf{
+  background-color: #293953;
+}
+
+.p{
+  color: #293953;
+  border-bottom:#1C6C9D 1px solid;
+}
+
+.navf{
+  color: #293953;
+font-size: 12px;
+font-weight: 700;
+line-height: 16px; /* 160% */
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+.navf a:hover {
+
+  color: #25A7DB;
 }

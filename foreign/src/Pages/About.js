@@ -1,0 +1,549 @@
+import './About.css'
+export default function About() {
+    return (
+        <div>
+            {/* sessao 1 - Linha do tempo */}
+            <div className="ss2 max-w-6xl mx-auto py-16">
+
+                <h2 className=" font-semibold h2 ">
+                    The evolution of Nova Futura
+                </h2>
+                <div className="flex flex-col my-8">
+                    <div className="flex flex-row justify-center left 1983">
+                        <div className="basis-5/12 flex justify-center flex-col mt-8">
+                            <h2 className='text-right font-bold uppercase'>
+                                Start of<br />
+                                Operations
+                            </h2>
+
+                            <p className='text-right mt-8'>
+
+                                Nova Futura Investimentos begins its Hedge of <br />
+                                activíties under the name Futura Corretora, in<br />
+                                the derivative markets, as a the concept of<br />
+                                foundingpartner of BM&F (Commodity and <br />
+                                Futures Exchange)
+                            </p>
+                        </div>
+                        <div className="basis-1/12 line text-center flex justify-center flex-col mx-8 p-0">
+                            <h2 className="text-white font-bold p-0">
+                                1983
+                            </h2>
+                        </div>
+                        <div className="basis-5/12 flex justify-center flex-col mt-8">
+                            <img className='pr-36' src="aboutLine1.png" alt="about1" />
+                        </div>
+                    </div>
+
+                    <div className="flex flex-row-reverse justify-center right 1996 ">
+                        <div className="basis-5/12 flex justify-center flex-col mt-8">
+                            <h2 className='text-left font-bold uppercase'>
+                                Hedge of <br />
+                                Commodities
+                            </h2>
+
+                            <p className='text-left mt-8'>
+
+                                Pioneering the introduction of the concept<br />
+                                of Hedge of Commodities, in 1996, it was<br />
+                                recognized by BMF as a Featured Broker in <br />
+                                the Trading of Agribusiness Futures <br />
+                                Contracts in the Sugar, Soybean, Alcohol<br />
+                                and Cattle modalities. Hedge of Commodities.
+                            </p>
+                        </div>
+                        <div className="basis-1/12 line text-center flex justify-center flex-col mx-8 p-0">
+                            <h2 className="text-white font-bold p-0">
+                                1996
+                            </h2>
+                        </div>
+                        <div className="basis-5/12 flex justify-center flex-col mt-8">
+
+                        </div>
+                    </div>
+
+                    <div className="flex flex-row justify-center left 2000">
+                        <div className="basis-5/12 flex justify-center flex-col my-8">
+                            <h2 className='text-right font-Normal text-lg uppercase'>
+                                Foundation of <br />
+                                nova futura <br />
+                                dtvm
+                            </h2>
+
+
+                        </div>
+                        <div className="basis-1/12 line text-center flex justify-center flex-col mx-8 ">
+                            <h3 className="text-white font-semibold px-10">
+                                2000
+                            </h3>
+                        </div>
+                        <div className="basis-5/12 flex justify-center flex-col mt-16">
+
+                        </div>
+                    </div>
+
+                    <div className="flex flex-row-reverse justify-center right 2007 ">
+                        <div className="basis-5/12 flex justify-center flex-col mt-8">
+                            <h2 className='text-left
+                             font-Normal text-lg uppercase'>
+                                Receives bm&f <br />
+                                certification
+                            </h2>
+
+
+                        </div>
+                        <div className="basis-1/12 line text-center flex justify-center flex-col mx-8 p-0">
+                            <h3 className="text-white font-semibold px-10">
+                                2007
+                            </h3>
+                        </div>
+                        <div className="basis-5/12 flex justify-center flex-col mt-8">
+                            <img className='pl-72 py-16' src="aboutLine2.png" alt="about1" />
+                        </div>
+                    </div>
+
+                    <div className="flex flex-row justify-center left 2011">
+                        <div className="basis-5/12 flex justify-center flex-col mt-8">
+                            <h2 className='text-right font-bold uppercase'>
+                                achieves<br />
+                                execution<br />
+                                broker<br />
+                                certificate
+                            </h2>
+
+
+                        </div>
+                        <div className="basis-1/12 line text-center flex justify-center flex-col mx-8 p-0">
+                            <h2 className="text-white font-bold p-0">
+                                2011
+                            </h2>
+                        </div>
+                        <div className="basis-5/12 flex justify-center flex-col mt-8">
+                            <img className='pr-80' src="aboutLine3.png" alt="about1" />
+                        </div>
+                    </div>
+
+                    <div className="flex flex-row-reverse justify-center right 2014 ">
+                        <div className="basis-5/12 flex justify-center flex-col my-16">
+                            <h2 className='text-left
+                             font-Normal text-lg uppercase'>
+                                takes over the operation<br />
+                                of petra cctvm
+                            </h2>
+
+
+                        </div>
+                        <div className="basis-1/12 line text-center flex justify-center flex-col mx-8 p-0">
+                            <h3 className="text-white font-normal px-10">
+                                2014
+                            </h3>
+                        </div>
+                        <div className="basis-5/12 flex justify-center flex-col my-16">
+
+                        </div>
+                    </div>
+
+                    <div className="flex flex-row justify-center left 2015">
+                        <div className="basis-5/12 flex justify-center flex-col mt-8">
+                            <h2 className='text-right font-bold  text-lg uppercase'>
+                                Merger of futura and nova <br />
+                                futura dtvm brokers giving rise<br />
+                                to nova futura investimentos
+                            </h2>
+
+
+                        </div>
+                        <div className="basis-1/12 line text-center flex justify-center flex-col mx-8 p-0">
+                            <h2 className="text-white font-bold p-0">
+                                2015
+                            </h2>
+                        </div>
+                        <div className="basis-5/12 flex justify-center flex-col mt-8">
+                            <img className='pr-36' src="aboutLine4.png" alt="about1" />
+                        </div>
+                    </div>
+
+                    <div className="flex flex-row-reverse justify-center right 2016">
+                        <div className="basis-5/12 flex justify-center flex-col mt-8">
+                            <h2 className='text-left
+                             font-Normal text-lg uppercase'>
+                                takes over the operation<br />
+                                of pax brokerage
+                            </h2>
+
+
+                        </div>
+                        <div className="basis-1/12 line text-center flex justify-center flex-col mx-8 p-0">
+                            <h3 className="text-white font-normal px-10">
+                                2016
+                            </h3>
+                        </div>
+                        <div className="basis-5/12 flex justify-center flex-col mt-8">
+                            <img className='pl-72 py-16' src="aboutLine5.png" alt="about1" />
+                        </div>
+                    </div>
+
+                    <div className="flex flex-row justify-center left 2017">
+                        <div className="basis-5/12 flex justify-center flex-col my-8">
+                            <h2 className='text-right font-Normal text-lg uppercase'>
+                                starts retail <br />
+                                operation
+
+                            </h2>
+
+
+                        </div>
+                        <div className="basis-1/12 line text-center flex justify-center flex-col mx-8 ">
+                            <h3 className="text-white font-semibold px-10">
+                                2017
+                            </h3>
+                        </div>
+                        <div className="basis-5/12 flex justify-center flex-col mt-16">
+
+                        </div>
+                    </div>
+
+                    <div className="flex flex-row-reverse justify-center right 2018">
+                        <div className="basis-5/12 flex justify-center flex-col mt-8">
+                            <h2 className='text-left font-bold uppercase text-lg'>
+                                start of the product<br />
+                                distribution platform for<br />
+                                portfolio allocation
+                            </h2>
+
+                            <p className='text-left mt-4'>
+
+                                Poffering the main products for digital retail.
+                            </p>
+                        </div>
+                        <div className="basis-1/12 line text-center flex justify-center flex-col mx-8 p-0">
+                            <h2 className="text-white font-bold p-0">
+                                2018
+                            </h2>
+                        </div>
+                        <div className="basis-5/12 flex justify-center flex-col mt-8">
+
+                        </div>
+                    </div>
+
+                    <div className="flex flex-row justify-center left 2021">
+                        <div className="basis-5/12 flex justify-center flex-col my-8">
+                            <h2 className='text-right font-Normal text-lg uppercase'>
+                                Reaches the milestone of 150 thousand<br />
+                                registered clients and inaugurates a new <br />
+                                headquarter
+
+                            </h2>
+
+
+                        </div>
+                        <div className="basis-1/12 line text-center flex justify-center flex-col mx-8 ">
+                            <h3 className="text-white font-semibold px-10">
+                                2020
+                            </h3>
+                        </div>
+                        <div className="basis-5/12 flex justify-center flex-col mt-16">
+
+                        </div>
+                    </div>
+                    <div className="flex flex-row-reverse justify-center left 2020">
+                        <div className="basis-5/12 flex justify-center flex-col my-8">
+                            <h2 className='text-left font-normal text-lg uppercase'>
+                            Opening of the fiduciary <br />administration area
+
+                            </h2>
+
+
+                        </div>
+                        <div className="basis-1/12 line text-center flex justify-center flex-col mx-8 ">
+                            <h3 className="text-white font-semibold px-10">
+                                2021
+                            </h3>
+                        </div>
+                        <div className="basis-5/12 flex justify-center flex-col my-8">
+                            <h2 className='text-right font-bold text-lg uppercase'>
+                            launch of nova futura’s<br /> investment funds
+                            
+                            </h2>
+
+                            <p className='text-right mt-4'>
+
+                            Offering the main products for digital retail.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="flex flex-row justify-center left 2020">
+                        <div className="basis-5/12 flex justify-center flex-col my-8">
+                            <h2 className='text-right font-bold text-lg uppercase'>
+                                renewal of b3’s<br />
+                                operational qualification<br />
+                                seal (pqo)
+
+                            </h2>
+
+
+                        </div>
+                        <div className="basis-1/12 line text-center flex justify-center flex-col mx-8 ">
+                            <h2 className="text-white font-bold ">
+                                2022
+                            </h2>
+                        </div>
+                        <div className="basis-5/12 flex justify-center flex-col my-8">
+                            <h3 className='text-left font-bold  uppercase'>
+                            expansion of the fiduciary <br /> administration area
+                            
+                            </h3>
+
+                            <p className='text-left mt-4'>
+
+                                Consolidation of the new business with fund managers.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            {/* sessao 2 - Business Model */}
+
+            <div className="ss3  py-16">
+                <div className=" max-w-6xl mx-auto ">
+                    <h2 className=" font-light text-gray-50 py-8 ">
+                        Business model
+                    </h2>
+                    <div className=" flex flex-row justify-between">
+                        <div className=" flex flex-col basis-6/12  justify-center  items-center ">
+                            <h3 className=" pt-2 font-semibold  text-gray-50 text-left mb-2 ">
+                                Broker and Investment Manager
+                            </h3>
+                            <div className="border-solid border-2 card1 py-6  text-left px-24 ">
+                                <h3 className="text-white text-left font-light">
+                                    <br />
+
+                                    • Stocks <br />
+                                    • Futures <br />
+                                    • Funds <br />
+                                    • Real Estate <br />
+                                    • Structured  <br />
+                                    • Products<br />
+                                    • Fixed Income <br />
+                                    • Social Security
+
+                                </h3>
+                            </div>
+                        </div>
+                        <div className=" flex flex-col basis-6/12  justify-center items-center  ">
+                            <h3 className="pt-2 font-normal  text-gray-50  text-left mb-2">
+                                <br />
+                            </h3>
+                            <div className="border-solid border-2 card1 py-6 px-24 text-left">
+                                <h3 className="text-white text-left font-light">
+                                    • B2C<br />
+                                    • B2B<br />
+                                    • Digital<br />
+                                    • Experience<br />
+                                    • Institutional<br />
+                                    • Clients<br />
+                                    • Agribusiness<br />
+                                    • Clients<br />
+                                    • Fiduciary<br />
+                                    • Administration
+                                </h3>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <h3 className="pt-8 font-bold text-gray-50  text-left my-5">
+                        Asset Manager
+                    </h3>
+                    <div className=" flex flex-row justify-between items-center text-center">
+
+                        <div className=" flex flex-col basis-1/4 bnt-p py-3  text-gray-50">
+                            FIA
+                        </div>
+                        <div className=" flex flex-col basis-1/4 bnt-p py-3  text-gray-50">
+                            FIM
+                        </div>
+                        <div className=" flex flex-col basis-1/4 bnt-p py-3  text-gray-50">
+                            Private
+                        </div>
+
+                    </div>
+
+                    <h3 className="pt-8 font-bold  text-gray-50  text-left my-5">
+                        Futura Academy
+                    </h3>
+                    <div className=" flex flex-row justify-start items-center text-center">
+
+                        <div className=" flex flex-col basis-1/3 bnt-p py-3 mr-32 text-sm  text-gray-50">
+                            Courses
+                        </div>
+                        <div className=" flex flex-col basis-1/3 bnt-p py-3 mr-4 text-sm  text-gray-50">
+                            Events
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            {/* sessao 3 - Get In Touch */}
+            <div className="ss2 max-w-6xl mx-auto py-16">
+                <h5 className="  font-semibold mt-5">
+                    WHERE TO FIND US
+                </h5>
+                <h2 className=" font-light h2 ">
+                    Get In Touch
+                </h2>
+                <div className="flex flex-row justify-center  max-w-4xl mx-auto p-24">
+
+                    <div className=" flex flex-col basis-1/2 border-solid border-2 justify- items-center p-3 card">
+                        <img class="h-auto w-auto" src="sp.png" alt="logo" />
+                        <div className="text-center">
+                            <h3 className="pt-2 font-semibold">
+                                SÃO PAULO - SP
+                            </h3>
+                            <p className="pt-2 font-semibold cardss2">
+                                Al Santos, 960 <br />
+                                10th floor - Postal Code 01418-002 <br />
+                                Phone: (11) 4020-6710
+                            </p>
+                        </div>
+                    </div>
+                    <div className=" flex flex-col basis-1/2  justify-end pl-5 ">
+                        <p className=" textss2 font-normal ">
+                            <span className="font-bold text-9x1 ">+ over 24 </span>
+                            <br />
+                            authorized<br />locals offices <br />in Brazil
+                        </p>
+                    </div>
+                </div>
+
+                <div className=" flex flex-row justify-around">
+                    <div className=" flex flex-col basis-1/3 border-solid border-2  iitems-center p-3 card2 mx-10">
+                        <img class="h-auto w-auto" src="pr.png" alt="logo" />
+                        <div className="text-center">
+                            <h3 className="pt-2 font-semibold">
+                                MARINGÁ - PR
+                            </h3>
+                            <p className="pt-2 font-semibold cardss2">
+                                Av. Pedro Tasques, 294 - 5th floor - Room 503<br />
+                                Postal Code 87030-000<br />
+                                Phone: (44) 330415615
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className=" flex flex-col basis-1/3 border-solid border-2 justify- items-center p-3 card2 mx-10">
+                        <img class="h-auto w-auto" src="rj.png" alt="logo" />
+                        <div className="text-center">
+                            <h3 className="pt-2 font-semibold">
+                                RIO DE JANEIRO - RJ
+                            </h3>
+                            <p className="pt-2 font-semibold cardss2">
+                                R. Sete de Setembro, 92 <br />
+                                Room 1609 and 1610<br />
+                                Postal Code 20050-002<br />
+                                Phone: (21) 25406661
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className=" flex flex-col basis-1/3 border-solid border-2 justify- items-center p-3 card2 mx-10">
+                        <img class="h-auto w-auto" src="ce.png" alt="logo" />
+                        <div className="text-center">
+                            <h3 className="pt-2 font-semibold">
+                                FORTALEZA - CE
+                            </h3>
+                            <p className="pt-2 font-semibold cardss2">
+                                Av. Des. Moreira, 2120 - 1808<br />
+                                Postal Code 60170-0020<br />
+                                Phone: (85) 4042-0967
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* sessao 4 - Conteudo*/}
+
+            <div class=" max-w-6xl mx-auto py-24 flex flex-row justify-center items-center ">
+                <div className='basis-1/3 flex items-center '>
+                    <h3 className="font-semibold text-left">
+                        Nova Futura is
+                        active on all listed
+                        products traded at
+                        B3 Exchange and
+                        the largest<br />
+                        Independent broker<br />
+                        in Brazil
+                    </h3></div>
+                <div className='basis-1/2 flex items-center'>
+                    <h5 className="border-l-2 card pl-5 mt-5 font-normal capaapp ">
+                        Being present in the exchange since it’s conception, Nova Futura has evolved froma key
+                        commodities player to a full service brokerage house in the last 40+ years serving it’s customers,
+                        with very solid customer servisse for execution and clearing, be that for the institutional or the
+                        retail. Our customers are pleased with level of service on voice or electronic and with all the support
+                        given fromthe experts on each satelite area to the core business; not tomention the robustness in
+                        technology used to deliver value to customers and partners.
+                    </h5></div>
+
+            </div>
+
+            {/* sessao 5*/}
+            <div className="ss4 py-24">
+                <div className="flex flex-row justify-center  max-w-6xl mx-auto ">
+
+                    <div className=" flex flex-col basis-5/12  items-center p-3 card">
+                        <div className="text-left">
+                            <img className=" mx-auto" src="phoneProducts.png" alt="logo" />
+
+                        </div>
+                    </div>
+                    <div className=" flex flex-col basis-7/12  justify-center  ">
+                        <h3 className="font-bold text-left app text-gray-50 ">
+                            We provide the best online experience,<br /> enabling the use of a wide range of <br />platforms to serve all types of investors
+                        </h3>
+                        <p className="font-normal text-left  text-gray-50 mt-4 "><span className="font-bold">All your investments in one place.</span> <br />
+                            Download the Nova Futura app to invest<br />
+                            with freedom and all the support<br />
+                            you may need.</p>
+                        <div className="mt-12">
+                            <a href="#" class="btn-forms mt-4 py-2 px-5 text-gray-50" aria-current="page">Download now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            {/* sessao 4 - Conteudo*/}
+
+            <div class="  mx-auto py-24 max-w-6xl ">
+               <h3 className="text-left  uppercase font-light my-5">
+               Operational Qualification
+               </h3>
+               <div class="  flex flex-row justify-center items-center ">
+                <div className='basis-1/3 flex items-center '>
+                   
+                   <img src="b3About.png" alt="" />
+                   </div>
+                <div className='basis-1/2 flex items-center'>
+                    <h5 className="border-l-2 card pl-5 mt-5 font-normal capaapp ">
+                    B3 unifies the 5 different quality certification seals of the services provided by brokers and banks. In addition to providing more security for investors, who
+can use the certification to choose a broker of bank, the new PQO seal guarantees uniqueness among the existing ones (Execution Broker, Agro Broker,
+Carrying Broker, NonResident Investor Broker, and Retail Broker) and simplification
+for the market.
+                    </h5></div>
+
+            </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    )
+}

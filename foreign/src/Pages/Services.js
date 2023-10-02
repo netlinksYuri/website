@@ -23,7 +23,7 @@ export default function About() {
           </div>
         </div>
         <div className="flex flex-row justify-between">
-          <div className=" flex flex-col basis-6/12  mt-12 ">
+          <div className=" flex flex-col basis-6/12  mt-12 mr-32">
            
             <div className="py-24 px-12  flex flex-col justify-center cardServ ">
               <p className="text-gray-50 text-lg">
@@ -36,7 +36,7 @@ export default function About() {
                 </p>
             </div>
           </div>
-          <div className=" flex flex-col basis-6/12  mt-12 ">
+          <div className=" flex flex-col basis-6/12  mt-12  ml-32">
            
             <div className="py-24 px-12  flex flex-col justify-center cardServ ">
               <p className="text-gray-50 text-lg">
@@ -84,7 +84,7 @@ needs:
           </div>
           <div className=" flex flex-col basis-6/12  mt-12 ">
            
-           <div className="py-24 px-12  flex flex-col justify-center cardServ2 ">
+           <div className="py-24 px-12  flex flex-col justify-center cardServ2 ml-32 ">
              <p className="text-gray-50 text-lg">
              • Hardware procurement <br/>
              • Due Diligence Questionnaire <br/>
@@ -121,7 +121,7 @@ the below electronic post trade services:
           </div>
           <div className=" flex flex-col basis-6/12  mt-12 ">
            
-           <div className="py-24 px-12  flex flex-col justify-center cardServ ">
+           <div className="py-24 px-12  flex flex-col justify-center cardServ ml-32 ">
              <p className="text-gray-50 text-lg">
              • SFTP File Transfers<br/>
 • WebServices<br/>

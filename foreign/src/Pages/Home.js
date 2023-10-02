@@ -87,7 +87,7 @@ export default function Home() {
       {/* sessao 3 - Products*/}
       <div className="ss3  py-16">
         <div className=" max-w-6xl mx-auto ">
-          <h2 className=" font-light text-gray-50 py-8 h2">
+          <h2 className=" font-light text-gray-50 py-8 ">
             Products
           </h2>
           <div className=" flex flex-row justify-between ">
@@ -240,7 +240,7 @@ export default function Home() {
 
           <div className=" flex flex-col basis-8/12  items-center p-3 card">
             <div className="text-left">
-              <h2 className="pt-2 font-light  text-gray-50 h2">
+              <h2 className="pt-2 font-light  text-gray-50 ">
                 Nova Futura is more<br />
                 than access to the<br />
                 local market.
