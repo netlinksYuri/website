@@ -1,4 +1,4 @@
-import Forms from "../componets/forms"
+
 import Contacts from '../componets/contacts';
 import './Home.css'
 export default function Home() {
