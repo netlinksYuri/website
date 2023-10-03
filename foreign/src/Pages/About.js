@@ -114,7 +114,7 @@ export default function About() {
 
                         </div>
                         <div className="basis-1/12 line text-center flex justify-center flex-col mx-8 p-0">
-                            <h2 className="text-white font-bold p-0">
+                            <h2 className="text-white font-bold px-2">
                                 2011
                             </h2>
                         </div>

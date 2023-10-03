@@ -79,26 +79,41 @@ export default function App() {
                             products to meet our diverse customer’s profiles.
                         </p>
                         <div className='flex flex-row py-6 sm:ml-5'>
-                            <div className='mr-5  rounded-md'>
-                                <img src="Link.png" alt="" />
+                            <div className='sm:mr-5 mr-2  rounded-md'>
+                               <a href="https://www.instagram.com/novafuturainvestimentos/"> 
+                               <img src="Link.png" alt="" />
+                               </a>
                             </div>
-                            <div className='mr-5  rounded-md'>
-                                <img src="Link-1.png" alt="" />
+                            <div className='sm:mr-5 mr-2  rounded-md'>
+                                <a href='https://www.youtube.com/c/novafuturainvestimentos'>
+                                    <img src="Link-1.png" alt="" />
+                                    </a>
                             </div>
-                            <div className='mr-5  rounded-md'>
+                            <div className='sm:mr-5 mr-2  rounded-md'>
+                            <a href='https://www.linkedin.com/authwall?trk=bf&trkInfo=AQGSNfMTPB8tEgAAAYr11_bw3LcvV486-t4fajtUxuKfDFEFDBspHkXnaMEKHvGrYaPYb6x_Qdcvw9gfSK2KX9CvPGRmAiFG58zLexfTon1kYD3RWax-1gYE7Nm9YPb_LGC_IWU=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fnova-futura-investimentos%2F'>
                                 <img src="Link-2.png" alt="" />
+                                </a>  
                             </div>
-                            <div className='mr-5  rounded-md'>
+                            <div className='sm:mr-5 mr-2  rounded-md'>
+                            <a href='https://www.facebook.com/novafuturanewf/'>
+                            
                                 <img src="Link-3.png" alt="" />
+                                </a> 
                             </div>
-                            <div className='mr-5  rounded-md'>
+                            <div className='sm:mr-5 mr-2  rounded-md'>
+                            <a href='https://twitter.com/nfinvestimentos'>
                                 <img src="Link-4.png" alt="" />
+                                </a> 
                             </div>
-                            <div className='mr-5  rounded-md'>
+                            <div className='sm:mr-5 mr-2  rounded-md'>
+                            <a href='https://www.twitch.tv/novafutura'>
                                 <img src="Link-5.png" alt="" />
+                                </a> 
                             </div>
-                            <div className='mr-5  rounded-md'>
+                            <div className='sm:mr-5 mr-2  rounded-md'>
+                            <a href='https://www.tiktok.com/@nova_futura'>
                                 <img src="Link-6.png" alt="" />
+                                </a> 
                             </div>
                         </div>
                     </div>
