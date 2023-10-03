@@ -1,4 +1,5 @@
 import Forms from "../componets/forms"
+import Contacts from '../componets/contacts';
 import './Home.css'
 export default function Home() {
   return (
@@ -246,7 +247,7 @@ export default function Home() {
                 local market.
               </h2>
               <div className="mt-12 flex">
-                <a href="#" class="btn-forms mt-4 py-2 px-5 text-gray-50 sm:block hidden " aria-current="page">Get in touch</a>
+                <a href="/#forms" class="btn-forms mt-4 py-2 px-5 text-gray-50 sm:block hidden " aria-current="page">Get in touch</a>
               </div>
             </div>
           </div>
@@ -261,7 +262,7 @@ export default function Home() {
               <br />
               <span className="font-semibold">100+ Asset Managers</span> on our funds distribution list.
               <div className=" flex">
-              <a href="#" class="btn-forms mt-4 py-2 px-5 mr-70 sm:mr-0 text-gray-50 text-center sm:hidden block  " aria-current="page">Get in touch</a>
+              <a href="/#forms" class="btn-forms mt-4 py-2 px-5 mr-70 sm:mr-0 text-gray-50 text-center sm:hidden block  " aria-current="page">Get in touch</a>
               </div>
             </h5>
 
@@ -400,8 +401,8 @@ trade services:
        <div className="ss7 max-w-6xl mx-auto py-4 ">
        <img className=" mx-auto" src="ss7.png" alt="logo" />
        </div>
-          {/* sessa 8 -  */}
-          <div className="ss8">
+          {/* sessa 8 - Contact*/}
+          <div className="ss8" id="forms">
           <div className="max-w-6xl mx-auto py-24 px-8 sm:px-0">
           <div className="flex flex-col justify-between">
        
@@ -413,9 +414,9 @@ trade services:
          Contact us
          </h2>
 
-         <div className="flex justify-center my-16 ">
-<div className=" py-8 px-12 ss3">
-<Forms/> 
+         <div className="flex justify-center sm:my-16 my-8 basis-6/12  ">
+<div className=" sm:py-8 py-2 sm:px-12 px-2 ">
+<Contacts/>
 </div>
          </div>
        </div>

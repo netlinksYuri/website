@@ -26,7 +26,7 @@ export default function App() {
                                         </div>
                                     </div>
                                     <div class="flex  items-center justify-center sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                                        <a href="#" class="btn-forms text-white py-2 px-4 font-medium" aria-current="page">Get in touch</a>
+                                        <a href="/#forms" class="btn-forms text-white py-2 px-4 font-medium" aria-current="page">Get in touch</a>
                                     </div>
                                 </div>
                                 <div class="flex-1  items-center justify-center sm:hidden block ">
