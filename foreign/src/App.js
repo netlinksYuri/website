@@ -74,8 +74,8 @@ export default function App() {
                         <img class=" mr-44 sm:mr-72" src="Logo NF_Positivo1 1.png" alt="logo" />
 
                         <p className='py-3 sm:py-6 sm:ml-5 p font-normal'>
-                            We simplify investments with efficient services and <br className='sm:block hidden' />
-                            platforms. We have a complete portfolio of financial <br className='sm:block hidden' />
+                            We simplify investments with efficient services and 
+                            platforms. We have a complete portfolio of financial 
                             products to meet our diverse customer’s profiles.
                         </p>
                         <div className='flex flex-row py-6 sm:ml-5'>
