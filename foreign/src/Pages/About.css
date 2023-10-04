@@ -4,7 +4,7 @@
 }
 
 .card1{
-    height:360px;
+    height:400px;
   }
 
   h3{
@@ -15,4 +15,22 @@
     font-style: normal;
     line-height: 30.619px; 
     /* 160% */
+    }
+    .ult{
+      font-size: 52px;
+
+    }
+    .app{
+      font-size: 24px;
+    }
+
+    .capaapp{
+      font-size: 20px;
+      text-align: left;
+    }
+
+    .capaap{
+      font-size: 36px;
+      text-align: left;
+      line-height: 38.619px; 
     }

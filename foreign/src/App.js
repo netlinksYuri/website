@@ -4,76 +4,14 @@ import { Outlet } from 'react-router-dom';
 export default function App() {
     return (
         <div>
-            <header>
-                {/* sessa 1*/}
-                <div className=" ss1 px-8 sm:px-16 pt-5" >
-                    {/* navegador*/}
-                    <nav class=" header max-w-6xl mx-auto" >
-                        <div class="   ">
-                            <div class="   ">
-                              
-                                <div class=" flex-row h-16 flex items-center justify-between sm:items-stretch sm:justify-between">
-                                    <div class=" items-center ">
-                                        <img class="h-16 w-auto" src="Logo NF_Positivo1 1.png" alt="logo" />
-                                    </div>
-                                    <div class="flex-1  items-center justify-center hidden sm:ml-6 sm:block">
-                                        <div class="flex h-16 items-center justify-center nav ">
-                                            <a href="/" class=" font-medium px-8 py-2 text-sm font-medium">HOME</a>
-                                            <a href="/About" class="font-medium  px-8 py-2 text-sm font-medium">ABOUT</a>
-                                            <a href="/Products" class="font-medium  px-8 py-2 text-sm font-medium">PRODUCTS</a>
-                                            <a href="/Services" class="font-medium  px-8 py-2 text-sm font-medium">SERVICES</a>
-                                            <a href="/Contact" class="font-medium  px-8 py-2 text-sm font-medium">CONTACT</a>
-                                        </div>
-                                    </div>
-                                    <div class="flex  items-center justify-center sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                                        <a href="/#forms" class="btn-forms text-white py-2 px-4 font-medium" aria-current="page">Get in touch</a>
-                                    </div>
-                                </div>
-                                <div class="flex-1  items-center justify-center sm:hidden block ">
-                                        <div class="flex h-16 items-center justify-center nav ">
-                                            <a href="/" class=" font-bold px-2 py-2 text-sx font-bold">HOME</a>
-                                            <a href="/About" class="font-bold  px-2 py-2 text-sx font-bold">ABOUT</a>
-                                            <a href="/Products" class="font-bold  px-2 py-2 text-sx font-bold">PRODUCTS</a>
-                                            <a href="/Services" class="font-bold  px-2 py-2 text-sx font-bold">SERVICES</a>
-                                            <a href="/Contact" class="font-bold  px-2 py-2 text-sx font-bold">CONTACT</a>
-                                        </div>
-                                        </div>
-                            </div>
-                        </div>
-
-
-                        
-                    </nav>
-
-                    {/* sessao 1 - Conteudo*/}
-
-                    <div class=" max-w-6xl mx-auto sm:pt-24 pt-12 ">
-                        <h1 className="font-normal text-left">
-                            Outstanding,<br />
-                            trustworthy<br />
-                            and secure
-                        </h1>
-                        <h5 className="border-l-2 card pl-5 mt-5 font-normal capaapp ">
-                            We are a solid broker and investment manager with <br className='sm:block hidden' />
-                            <span className="font-semibold">40 years of tradition. </span> <br className='sm:block hidden' />
-                            Throughout our history, we have been prominent in <br className='sm:block hidden' />
-                            equity and derivativemarkets.
-                        </h5>
-
-                        <img className="max-w-2xl sm:mt-12 mt-6 hidden  sm:block" src="s1-svgs.png" alt="diferenciais" />
-                        <img className="max-w-2xl sm:mt-12 mt-12 sm:hidden block" src="ss1.png" alt="diferenciais" />
-                    
-                    </div>
-                </div>
-
-            </header>
+      
             <Outlet />
             <footer className='bg-gray-50 '>
                 <div className='flex flex-col sm:flex-row max-w-6xl justify-center  mx-auto py-16 px-8 sm:px-0 '>
                     <div className='flex flex-col basis-2/5 mr-12'>
-                        <img class=" mr-44 sm:mr-72" src="Logo NF_Positivo1 1.png" alt="logo" />
+                        <img class=" mr-44 sm:mr-64" src="Logo NF_Positivo1 1.png" alt="logo" />
 
-                        <p className='py-3 sm:py-6 sm:ml-5 p font-normal'>
+                        <p className='py-3 sm:py-6 p sm:ml-5 text-sm font-semibold'>
                             We simplify investments with efficient services and 
                             platforms. We have a complete portfolio of financial 
                             products to meet our diverse customer’s profiles.
@@ -119,7 +57,7 @@ export default function App() {
                     </div>
 
                     <div className='flex flex-col basis-1/5 '>
-                        <h5 className='uppercase font-normal tracking-widest mt-5 sm:mt-0 sm:mb-0 mb-4'>
+                        <h5 className='uppercase font-semibold tracking-widest mt-5 sm:mt-0 sm:mb-0 mb-4 pb-5'>
                             SiteMap
                         </h5>
                         <ul className='navf flex sm:flex-col flex-row flex-wrap'>
@@ -141,7 +79,7 @@ export default function App() {
                         </ul>
                     </div>
                     <div className='flex flex-col basis-1/5 mr-6 mt-5 sm:mt-0'>
-                        <h5 className='uppercase font-normal tracking-widest'>
+                        <h5 className='uppercase font-semibold tracking-widest pb-5'>
                             Certifications
                         </h5>
                         <div className='flex flex-row items-center'>
@@ -156,10 +94,10 @@ export default function App() {
 
                     </div>
                     <div className='flex flex-col basis-1/5 mr-6 mt-5 sm:mt-0'>
-                        <h5 className='uppercase font-normal tracking-widest'>
+                        <h5 className='uppercase font-semibold tracking-widest pb-5'>
                             Contact
                         </h5>
-                        <h3 className='text-left font-bold h3'>
+                        <h3 className='text-left font-normal h3'>
                             0800 724 3080
                         </h3>
                     </div>

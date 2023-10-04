@@ -2,10 +2,74 @@ import './About.css'
 export default function About() {
     return (
         <div>
+            <header>
+                {/* sessa 1*/}
+                <div className=" ss1 px-8 sm:px-16 pt-5" >
+                    {/* navegador*/}
+                    <nav class=" header max-w-6xl mx-auto" >
+                        <div class="   ">
+                            <div class="   ">
+
+                                <div class=" flex-row h-16 flex items-center justify-between sm:items-stretch sm:justify-between">
+                                    <div class=" items-center ">
+                                        <img class="h-16 w-auto" src="Logo NF_Positivo1 1.png" alt="logo" />
+                                    </div>
+                                    <div class="flex-1  items-center justify-center hidden sm:ml-6 sm:block">
+                                        <div class="flex h-16 items-center justify-center nav ">
+                                            <a href="/" class=" font-bold px-4 py-2 text-xs ">HOME</a>
+                                            <a href="/About" class="  font-bold px-4 py-2 text-xs ">ABOUT</a>
+                                            <a href="/Products" class="  font-bold px-4 py-2 text-xs ">PRODUCTS</a>
+                                            <a href="/Services" class="  font-bold px-4 py-2 text-xs ">SERVICES</a>
+                                            <a href="/Contact" class="  font-bold px-4 py-2 text-xs ">CONTACT</a>
+                                        </div>
+                                    </div>
+                                    <div class="flex  items-center justify-center sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                                        <a href="/#forms" class="btn-forms text-white py-2 px-6 font-medium" aria-current="page">Get in touch</a>
+                                    </div>
+                                </div>
+                                <div class="flex-1  items-center justify-center sm:hidden block ">
+                                    <div class="flex h-16 items-center justify-center nav ">
+                                        <a href="/" class=" font-bold px-2 py-2 text-sx font-bold">HOME</a>
+                                        <a href="/About" class="font-bold  px-2 py-2 text-sx font-bold">ABOUT</a>
+                                        <a href="/Products" class="font-bold  px-2 py-2 text-sx font-bold">PRODUCTS</a>
+                                        <a href="/Services" class="font-bold  px-2 py-2 text-sx font-bold">SERVICES</a>
+                                        <a href="/Contact" class="font-bold  px-2 py-2 text-sx font-bold">CONTACT</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </nav>
+
+                    {/* sessao 1 - Conteudo*/}
+
+                    <div class=" max-w-6xl mx-auto sm:pt-24 pt-12 ">
+                        <h1 className="font-normal text-left">
+                            Outstanding,<br />
+                            trustworthy<br />
+                            and secure
+                        </h1>
+                        <h5 className="border-l-2 card pl-5 mt-5 font-normal capaapp ">
+                            We are a solid broker and investment manager with <br className='sm:block hidden' />
+                            <span className="font-semibold">40 years of tradition. </span> <br className='sm:block hidden' />
+                            Throughout our history, we have been prominent in <br className='sm:block hidden' />
+                            equity and derivativemarkets.
+                        </h5>
+
+                        <div class="flex  items-center pt-10">
+                            <a href="/#forms" class="btn-forms text-white py-2 px-6 font-medium" aria-current="page">Get in touch</a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </header>
             {/* sessao 1 - Linha do tempo */}
             <div className="ss2 max-w-6xl mx-auto py-16 ">
 
-                <h2 className=" font-semibold h2 px-8 sm:px-0 ">
+                <h2 className=" font-semibold  px-8 sm:px-0 text-left ">
                     The evolution of Nova Futura
                 </h2>
                 <div className="flex flex-col my-8 sm:block hidden ">
@@ -72,8 +136,8 @@ export default function About() {
 
 
                         </div>
-                        <div className="basis-1/12 line text-center flex justify-center flex-col mx-8 ">
-                            <h3 className="text-white font-semibold px-10">
+                        <div className="basis-2/12 line text-center flex justify-center flex-col mx-8 ">
+                            <h3 className="text-white text-center font-semibold px-8">
                                 2000
                             </h3>
                         </div>
@@ -93,7 +157,7 @@ export default function About() {
 
                         </div>
                         <div className="basis-1/12 line text-center flex justify-center flex-col mx-8 p-0">
-                            <h3 className="text-white font-semibold px-10">
+                            <h3 className="text-white font-semibold px-8">
                                 2007
                             </h3>
                         </div>
@@ -113,7 +177,7 @@ export default function About() {
 
 
                         </div>
-                        <div className="basis-1/12 line text-center flex justify-center flex-col mx-8 p-0">
+                        <div className="basis-2/12 line text-center flex justify-center flex-col mx-8 p-0">
                             <h2 className="text-white font-bold px-2">
                                 2011
                             </h2>
@@ -133,8 +197,8 @@ export default function About() {
 
 
                         </div>
-                        <div className="basis-1/12 line text-center flex justify-center flex-col mx-8 p-0">
-                            <h3 className="text-white font-normal px-10">
+                        <div className="basis-2/12 line text-center flex justify-center flex-col mx-8 p-0">
+                            <h3 className="text-white font-normal px-8">
                                 2014
                             </h3>
                         </div>
@@ -173,18 +237,19 @@ export default function About() {
 
 
                         </div>
-                        <div className="basis-1/12 line text-center flex justify-center flex-col mx-8 p-0">
-                            <h3 className="text-white font-normal px-10">
+                        <div className="basis-2/12 line text-center flex justify-center flex-col mx-8 p-0">
+                            <h3 className="text-white font-normal px-8">
                                 2016
                             </h3>
                         </div>
                         <div className="basis-5/12 flex justify-center flex-col mt-8">
-                            <img className='pl-72 py-16' src="aboutLine5.png" alt="about1" />
                         </div>
                     </div>
 
                     <div className="flex flex-row justify-center left 2017">
                         <div className="basis-5/12 flex justify-center flex-col my-8">
+                            <img className='pl-92 ' src="aboutLine5.png" alt="about1" />
+
                             <h2 className='text-right font-Normal text-lg uppercase'>
                                 starts retail <br />
                                 operation
@@ -193,8 +258,8 @@ export default function About() {
 
 
                         </div>
-                        <div className="basis-1/12 line text-center flex justify-center flex-col mx-8 ">
-                            <h3 className="text-white font-semibold px-10">
+                        <div className="basis-2/12 line text-center flex justify-center flex-col mx-8 ">
+                            <h3 className="text-white font-semibold px-8">
                                 2017
                             </h3>
                         </div>
@@ -238,7 +303,7 @@ export default function About() {
 
                         </div>
                         <div className="basis-1/12 line text-center flex justify-center flex-col mx-8 ">
-                            <h3 className="text-white font-semibold px-10">
+                            <h3 className="text-white font-semibold px-8">
                                 2020
                             </h3>
                         </div>
@@ -249,26 +314,26 @@ export default function About() {
                     <div className="flex flex-row-reverse justify-center left 2020">
                         <div className="basis-5/12 flex justify-center flex-col my-8">
                             <h2 className='text-left font-normal text-lg uppercase'>
-                            Opening of the fiduciary <br />administration area
+                                Opening of the fiduciary <br />administration area
 
                             </h2>
 
 
                         </div>
-                        <div className="basis-1/12 line text-center flex justify-center flex-col mx-8 ">
-                            <h3 className="text-white font-semibold px-10">
+                        <div className="basis-2/12 line text-center flex justify-center flex-col mx-8 ">
+                            <h3 className="text-white font-semibold px-8">
                                 2021
                             </h3>
                         </div>
                         <div className="basis-5/12 flex justify-center flex-col my-8">
                             <h2 className='text-right font-bold text-lg uppercase'>
-                            launch of nova futura’s<br /> investment funds
-                            
+                                launch of nova futura’s<br /> investment funds
+
                             </h2>
 
                             <p className='text-right mt-4'>
 
-                            Offering the main products for digital retail.
+                                Offering the main products for digital retail.
                             </p>
                         </div>
                     </div>
@@ -283,15 +348,15 @@ export default function About() {
 
 
                         </div>
-                        <div className="basis-1/12 line text-center flex justify-center flex-col mx-8 ">
-                            <h2 className="text-white font-bold ">
+                        <div className="basis-2/12 line text-center flex justify-center flex-col mx-8 ">
+                            <h2 className="text-white font-bold ult ">
                                 2022
                             </h2>
                         </div>
                         <div className="basis-5/12 flex justify-center flex-col my-8">
                             <h3 className='text-left font-bold  uppercase'>
-                            expansion of the fiduciary <br /> administration area
-                            
+                                expansion of the fiduciary <br /> administration area
+
                             </h3>
 
                             <p className='text-left mt-4'>
@@ -302,7 +367,7 @@ export default function About() {
                     </div>
                 </div>
                 <div className="flex flex-col my-8 sm:hidden block ">
-                <img className="mx-auto" src="line.png" alt="logo" />
+                    <img className="mx-auto" src="line.png" alt="logo" />
                 </div>
 
             </div>
@@ -359,15 +424,15 @@ export default function About() {
                     <h3 className="pt-8 font-bold text-gray-50  text-left my-5">
                         Asset Manager
                     </h3>
-                    <div className=" flex flex-row justify-between items-center text-center">
+                    <div className=" flex flex-row justify-start items-center text-center">
 
-                        <div className=" flex flex-col basis-1/4 bnt-p py-3  text-gray-50">
+                        <div className=" flex flex-col basis-1/4 mr-16 bnt-p py-3  text-gray-50">
                             FIA
                         </div>
-                        <div className=" flex flex-col basis-1/4 bnt-p py-3  text-gray-50">
+                        <div className=" flex flex-col basis-1/4 mr-16 bnt-p py-3  text-gray-50">
                             FIM
                         </div>
-                        <div className=" flex flex-col basis-1/4 bnt-p py-3  text-gray-50">
+                        <div className=" flex flex-col basis-1/4 mr-16  bnt-p py-3  text-gray-50">
                             Private
                         </div>
 
@@ -378,10 +443,10 @@ export default function About() {
                     </h3>
                     <div className=" flex flex-row justify-start items-center text-center">
 
-                        <div className=" flex flex-col basis-1/3 bnt-p py-3 mr-32 text-sm  text-gray-50">
+                        <div className=" flex flex-col basis-1/4 bnt-p py-3 mr-16 text-sm  text-gray-50">
                             Courses
                         </div>
-                        <div className=" flex flex-col basis-1/3 bnt-p py-3 mr-4 text-sm  text-gray-50">
+                        <div className=" flex flex-col basis-1/4 bnt-p py-3 mr-4 text-sm  text-gray-50">
                             Events
                         </div>
 
@@ -390,159 +455,160 @@ export default function About() {
                 </div>
             </div>
 
-         {/* sessao 3 - Get In Touch */}
-      <div className="ss2 max-w-6xl mx-auto py-16 px-8 sm:px-0">
-        <h5 className="  font-semibold mt-5">
-          WHERE TO FIND US
-        </h5>
-        <h2 className=" font-light h2 ">
-          Get In Touch
-        </h2>
-        <div className="flex flex-col sm:flex-row justify-center max-w-4xl mx-auto sm:p-24 ">
+            {/* sessao 3 - Get In Touch */}
+            <div className="ss2 max-w-6xl mx-auto py-16 px-8 sm:px-0">
+                <h5 className="  font-semibold mt-5">
+                    WHERE TO FIND US
+                </h5>
+                <h2 className=" font-light h2 ">
+                    Get In Touch
+                </h2>
+                <div className="flex flex-col sm:flex-row justify-center max-w-4xl mx-auto sm:p-24 ">
 
-          <div className=" flex flex-col sm:basis-1/2 basis-2/2 border-solid border-2 justify- items-center p-3 card mx-8 my-4 sm:mx-2">
-            <img class="h-auto w-auto" src="sp.png" alt="logo" />
-            <div className="text-center">
-              <h3 className="py-4 font-semibold h3g">
-                SÃO PAULO - SP
-              </h3>
-              <p className="py-2 font-semibold cardss2 ">
-                Al Santos, 960 <br />
-                10th floor - Postal Code 01418-002 <br />
-                Phone: (11) 4020-6710
-              </p>
-            </div>
-          </div>
-          <div className=" flex flex-col basis-1/2  justify-end sm:pl-5 pl-0 my-4 ">
-            <p className=" textss2 font-normal sm:mt-10  my-3 sm:text-left text-center ">
-              <span className="font-bold  ">+over 24 </span>
-              <br className="sm:block hidden"  />
-              authorized <br className="sm:block hidden" />locals offices <br className="sm:block hidden" />in Brazil
-            </p>
-          </div>
-        </div>
+                    <div className=" flex flex-col sm:basis-1/2 basis-2/2 border-solid border-2 justify- items-center p-3 card mx-8 my-4 sm:mx-2">
+                        <img class="h-auto w-auto" src="sp.png" alt="logo" />
+                        <div className="text-center">
+                            <h3 className="py-4 font-semibold h3g">
+                                SÃO PAULO - SP
+                            </h3>
+                            <p className="py-2 font-semibold cardss2 ">
+                                Al Santos, 960 <br />
+                                10th floor - Postal Code 01418-002 <br />
+                                Phone: (11) 4020-6710
+                            </p>
+                        </div>
+                    </div>
+                    <div className=" flex flex-col basis-1/2  justify-end sm:pl-5 pl-0 my-4 ">
+                        <p className=" textss2 font-normal sm:mt-10  my-3 sm:text-left text-center ">
+                            <span className="font-bold  ">+over 24 </span>
+                            <br className="sm:block hidden" />
+                            authorized <br className="sm:block hidden" />locals offices <br className="sm:block hidden" />in Brazil
+                        </p>
+                    </div>
+                </div>
 
-        <div className=" flex flex-col sm:flex-row justify-around max-w-4xl sm:max-w-6xl mx-auto">
-          <div className=" flex flex-col basis-1/3 border-solid border-2  items-center p-3 card2 sm:mx-6 mx-8 mb-8">
-            <img class="h-auto w-auto" src="pr.png" alt="logo" />
-            <div className="text-center">
-              <h3 className="py-4 font-semibold">
-                MARINGÁ - PR
-              </h3>
-              <p className="py-2 font-semibold cardss2">
-                Av. Pedro Tasques, 294 - 5th floor - Room 503<br />
-                Postal Code 87030-000<br />
-                Phone: (44) 330415615
-              </p>
-            </div>
-          </div>
+                <div className=" flex flex-col sm:flex-row justify-around max-w-4xl sm:max-w-6xl mx-auto">
+                    <div className=" flex flex-col basis-1/3 border-solid border-2  items-center p-3 card2 sm:mx-6 mx-8 mb-8">
+                        <img class="h-auto w-auto" src="pr.png" alt="logo" />
+                        <div className="text-center">
+                            <h3 className="py-4 font-semibold">
+                                MARINGÁ - PR
+                            </h3>
+                            <p className="py-2 font-semibold cardss2">
+                                Av. Pedro Tasques, 294 - 5th floor - Room 503<br />
+                                Postal Code 87030-000<br />
+                                Phone: (44) 330415615
+                            </p>
+                        </div>
+                    </div>
 
-          <div className=" flex flex-col basis-1/3 border-solid border-2  items-center p-3 card2 sm:mx-6 mx-8 mb-8">
-            <img class="h-auto w-auto" src="rj.png" alt="logo" />
-            <div className="text-center">
-              <h3 className="py-4 font-semibold">
-                RIO DE JANEIRO - RJ
-              </h3>
-              <p className="py-2 font-semibold cardss2">
-                R. Sete de Setembro, 92 <br />
-                Room 1609 and 1610<br />
-                Postal Code 20050-002<br />
-                Phone: (21) 25406661
-              </p>
-            </div>
-          </div>
+                    <div className=" flex flex-col basis-1/3 border-solid border-2  items-center p-3 card2 sm:mx-6 mx-8 mb-8">
+                        <img class="h-auto w-auto" src="rj.png" alt="logo" />
+                        <div className="text-center">
+                            <h3 className="py-4 font-semibold">
+                                RIO DE JANEIRO - RJ
+                            </h3>
+                            <p className="py-2 font-semibold cardss2">
+                                R. Sete de Setembro, 92 <br />
+                                Room 1609 and 1610<br />
+                                Postal Code 20050-002<br />
+                                Phone: (21) 25406661
+                            </p>
+                        </div>
+                    </div>
 
-          <div className=" flex flex-col basis-1/3 border-solid border-2  items-center p-3 card2 sm:mx-6 mx-8 mb-8">
-            <img class="h-auto w-auto" src="ce.png" alt="logo" />
-            <div className="text-center">
-              <h3 className="py-4 font-semibold">
-                FORTALEZA - CE
-              </h3>
-              <p className="py-2 font-semibold cardss2">
-                Av. Des. Moreira, 2120 - 1808<br />
-                Postal Code 60170-0020<br />
-                Phone: (85) 4042-0967
-              </p>
+                    <div className=" flex flex-col basis-1/3 border-solid border-2  items-center p-3 card2 sm:mx-6 mx-8 mb-8">
+                        <img class="h-auto w-auto" src="ce.png" alt="logo" />
+                        <div className="text-center">
+                            <h3 className="py-4 font-semibold">
+                                FORTALEZA - CE
+                            </h3>
+                            <p className="py-2 font-semibold cardss2">
+                                Av. Des. Moreira, 2120 - 1808<br />
+                                Postal Code 60170-0020<br />
+                                Phone: (85) 4042-0967
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
 
             {/* sessao 4 - Conteudo*/}
 
-            <div class=" max-w-6xl mx-auto py-24 px-8 sm:px-0 flex flex-col sm:flex-row justify-center items-center ">
-                <div className='basis-1/3 flex items-center '>
-                    <h3 className="font-semibold text-left">
-                        Nova Futura is
-                        active on all listed
-                        products traded at
-                        B3 Exchange and
+            <div class=" max-w-6xl mx-auto pt-16 pb-36 px-8 sm:px-0 flex flex-col sm:flex-row justify-end items-center ">
+                <div className='basis-1/2 flex items-center justify-center '>
+                    <h2 className="font-semibold text-left capaap">
+                        Nova Futura is <br className="sm:block hidden" />
+                        active on all listed <br className="sm:block hidden" />
+                        products traded at <br className="sm:block hidden" />
+                        B3 Exchange and <br className="sm:block hidden" />
                         the largest<br className="sm:block hidden" />
                         Independent broker<br className="sm:block hidden" />
                         in Brazil
-                    </h3></div>
-                <div className='basis-1/2 flex items-center'>
-                    <h5 className="border-l-2 card pl-5 mt-5 font-normal capaapp ">
-                        Being present in the exchange since it’s conception, Nova Futura has evolved froma key
-                        commodities player to a full service brokerage house in the last 40+ years serving it’s customers,
-                        with very solid customer servisse for execution and clearing, be that for the institutional or the
-                        retail. Our customers are pleased with level of service on voice or electronic and with all the support
+                    </h2></div>
+                <div className='basis-1/2 flex  items-center'>
+                    <h3 className="border-l-2 card pl-5 mt-5 font-normal capaapp ">
+                        Being present in the exchange since it’s <br className="sm:block hidden" />
+                        conception, Nova Futura has evolved froma key <br className="sm:block hidden" />
+                        commodities player to a full service brokerage <br className="sm:block hidden" />
+                        house in the last 40+ years serving it’s customers, <br className="sm:block hidden" />
+                        with very solid customer servisse for execution <br className="sm:block hidden" />
+                        and clearing, be that for the institutional or the <br className="sm:block hidden" />
+                        retail. Our customers are pleased with level of
+                        service on voice or electronic and with all the support
                         given fromthe experts on each satelite area to the core business; not tomention the robustness in
                         technology used to deliver value to customers and partners.
-                    </h5></div>
+                    </h3></div>
 
             </div>
 
             {/* sessao 5*/}
             <div className="ss4 py-24">
-        <div className="flex flex-row justify-center  max-w-6xl mx-auto ">
+                <div className="flex flex-row justify-center  max-w-6xl mx-auto ">
 
-          <div className=" flex flex-col basis-5/12  items-center p-3 card">
-            <div className="text-left">
-            <img className=" mx-auto" src="phoneProducts.png" alt="logo" />
-              
+                    <div className=" flex flex-col basis-6/12  items-center p-3 card">
+                        <div className="text-left">
+                            <img className=" mx-auto" src="phoneProducts.png" alt="logo" />
+
+                        </div>
+                    </div>
+                    <div className=" flex flex-col basis-6/12  justify-center  ">
+                        <h3 className="font-semibold text-left app text-lg text-gray-50 ">
+                            We provide the best online experience, <br className="sm:block hidden" />
+                            enabling the use of a wide range of <br className="sm:block hidden" />
+                            platforms to serve all types of investors
+                        </h3>
+                        <p className="font-normal text-left text-sm text-gray-50 mt-4 "><span className="font-bold">All your investments in one place.</span> <br />
+                            Download the Nova Futura app to invest<br />
+                            with freedom and all the support<br />
+                            you may need.</p>
+                        <div className="mt-12">
+                            <a href="#" class="btn-forms mt-4 py-3 px-8 text-gray-50" aria-current="page">Download now</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div className=" flex flex-col basis-7/12  justify-center  ">
-            <h3 className="font-bold text-left app text-lg text-gray-50 ">
-            We provide the best online experience, <br className="sm:block hidden"/> 
-            enabling the use of a wide range of <br className="sm:block hidden"/>
-            platforms to serve all types of investors
-            </h3>
-            <p className="font-normal text-left text-sm text-gray-50 mt-4 "><span className="font-bold">All your investments in one place.</span> <br/>
-            Download the Nova Futura app to invest<br/> 
-            with freedom and all the support<br/>
-            you may need.</p>
-            <div className="mt-12">
-            <a href="#" class="btn-forms mt-4 py-2 px-5 text-gray-50" aria-current="page">Download now</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-
 
             {/* sessao 6 - Conteudo*/}
 
             <div class="  mx-auto py-24 max-w-6xl px-8 sm:px-0 ">
-               <h3 className="text-left  uppercase font-light my-5">
-               Operational Qualification
-               </h3>
-               <div class="  flex flex-col sm:flex-row  justify-center items-center ">
-                <div className='basis-1/3 flex items-center sm:pb-0 pb-5 '>
-                   
-                   <img src="b3About.png" alt="" />
-                   </div>
-                <div className='basis-1/2 flex items-center'>
-                    <h5 className="border-l-2 card pl-5 mt-5 font-normal capaapp ">
-                    B3 unifies the 5 different quality certification seals of the services provided by brokers and banks. In addition to providing more security for investors, who
-can use the certification to choose a broker of bank, the new PQO seal guarantees uniqueness among the existing ones (Execution Broker, Agro Broker,
-Carrying Broker, NonResident Investor Broker, and Retail Broker) and simplification
-for the market.
-                    </h5></div>
+                <h3 className="text-left  uppercase font-light my-5 pb-14 ">
+                    Operational Qualification
+                </h3>
+                <div class="  flex flex-col sm:flex-row  justify-center items-center ">
+                    <div className='basis-1/3 flex items-center sm:pb-0 pb-5 '>
 
-            </div>
+                        <img src="b3About.png" alt="" />
+                    </div>
+                    <div className='basis-1/2 flex items-center'>
+                        <h5 className="border-l-2 card pl-5 mt-5 font-normal capaapp ">
+                            B3 unifies the 5 different quality certification seals of the services provided by brokers and banks. In addition to providing more security for investors, who
+                            can use the certification to choose a broker of bank, the new PQO seal guarantees uniqueness among the existing ones (Execution Broker, Agro Broker,
+                            Carrying Broker, NonResident Investor Broker, and Retail Broker) and simplification
+                            for the market.
+                        </h5></div>
+
+                </div>
             </div>
         </div>
 

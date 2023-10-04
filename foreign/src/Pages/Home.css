@@ -11,8 +11,8 @@ text-transform: uppercase;
 }
 
 .nav a:hover {
-  background-color: #25A7DB;
-  color: #FFF;
+ 
+  color: #25A7DB;
 }
 .ss1{
   height: 800px;
@@ -52,6 +52,15 @@ h5{
 
   line-height: 23.976px; /* 160% */
   }
+  .h5{
+
+    color: #293953;
+    background-color: transparent;
+    font-size: 14.985px;
+    font-style: normal;
+  
+    line-height: 23.976px; /* 160% */
+    }
 
 .h2{
 
@@ -129,7 +138,7 @@ line-height: 20.413px; /* 160% */
 }
 
 .cards{
- height: 540px;
+ height: 580px;
   
 }
 
@@ -166,4 +175,8 @@ background: #222f45;
 .pc{
   color:  #293953;
 
+}
+
+.img{
+  margin-left: -20px;
 }

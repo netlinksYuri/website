@@ -35,7 +35,7 @@ class Contacts extends Component {
     return (
       <div className='flex flex-col justify-center text-center bg-white sm:p-16 p-8'>
         <h3 className=''>Get In Touch</h3>
-        <h5 className=''>Please, fill our form</h5>
+        <h5 className='font-medium'>Please, fill our form</h5>
         <form onSubmit={this.handleSubmit}>
           <div>
             <input
@@ -96,8 +96,12 @@ class Contacts extends Component {
               style={inputStyle}
             />
           </div>
-
-          <div className='flex justify-center'>
+          <div className='text-left font-semibold'>
+            <p>
+            * Required fields
+            </p>
+          </div>
+          <div className='flex flex-col justify-center pt-10 '>
             <button type="submit"><p>Send Message</p></button>
           </div>
         </form>

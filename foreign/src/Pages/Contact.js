@@ -41,9 +41,9 @@ export default function Contact() {
                   <p>Nova Futura Investimentos</p>
                   </div>
             </div>
-            <div className='flex flex-row text-white items-center  justify-start mb-5'>
+            <div className='flex flex-row text-white items-center   mb-5'>
                <div>
-               <img class="h-auto w-auto   pr-1 " src="8.png" alt="logo" />
+               <img class="h-auto w-auto   pr-4 " src="7.png" alt="logo" />
                </div>
                <div>
                   <p>@/novafuturanewf</p>
@@ -104,7 +104,12 @@ Senior Asia Business Development
 andre.schierz@novafutura.com.br
 </p>
          </div>
+
        </div>
+<div className='ss3'>
+   <br/>
+   <br/>
+</div>
        </div>
 
 )
