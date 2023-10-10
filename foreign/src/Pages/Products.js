@@ -24,8 +24,8 @@ export default function Products() {
                     </div>
                   </div>
                   <div class="flex  items-center justify-center sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                    <a href="/#forms" class="btn-forms text-white py-2 px-6 font-medium" aria-current="page">Get in touch</a>
-                  </div>
+                                        <a href="/#forms" class=" text-xs btn-forms text-white py-2 px-6 font-medium" aria-current="page">Get in touch</a>
+                                    </div>
                 </div>
                 <div class="flex-1  items-center justify-center sm:hidden block ">
                   <div class="flex h-16 items-center justify-center nav ">
@@ -67,8 +67,12 @@ export default function Products() {
 
       </header>
       {/* sessao 1 - Products*/}
-      <div className="ss3  py-16">
+
+     <div className="ss3  py-16">
         <div className=" max-w-6xl sm:max-md sm:mx-auto  ">
+        <h5 className="font-semibold">
+        OUR PRODUCTS
+            </h5>
           <h2 className=" font-light text-gray-50 py-8 pl-8 sm:pl-0 ">
             Products
           </h2>
@@ -79,16 +83,16 @@ export default function Products() {
               </h3>
               <div className="border-solid border-2 card1 py-6 px-8 text-left ">
                 <ul className=" flex flex-col  justify-center align-middle font-semibold  text-gray-50 text-xs ">
-
-                  <li className=" font-semibold  text-gray-50  py-2 ">Cash Equities</li>
-                  <li className=" font-semibold  text-gray-50  py-2 ">Single Stock futures</li>
-                  <li className=" font-semibold  text-gray-50  py-2 ">ETFs</li>
-                  <li className=" font-semibold  text-gray-50  py-2 ">Equity and Index</li>
-                  <li className=" font-semibold  text-gray-50  py-2 ">Stock lending</li>
-                  <li className=" font-semibold  text-gray-50  py-2 ">BDRs</li>
-                  <li className=" font-semibold  text-gray-50  py-2 ">Options</li>
-                  <li className=" font-semibold  text-gray-50  py-2 "> Digital Options</li>
-
+                
+                  <li className=" font-semibold  text-gray-50  py-2 ">• Cash Equities</li>
+                  <li className=" font-semibold  text-gray-50  py-2 ">• Single Stock futures</li>
+                  <li className=" font-semibold  text-gray-50  py-2 ">• ETFs</li>
+                  <li className=" font-semibold  text-gray-50  py-2 ">• Equity and Index</li>
+                  <li className=" font-semibold  text-gray-50  py-2 ">• Stock lending</li>
+                  <li className=" font-semibold  text-gray-50  py-2 ">• BDRs</li>
+                  <li className=" font-semibold  text-gray-50  py-2 ">• Options</li>
+                  <li className=" font-semibold  text-gray-50  py-2 ">• Digital Options</li>
+                  
                 </ul>
               </div>
             </div>
@@ -98,12 +102,12 @@ export default function Products() {
               </h3>
               <div className="border-solid border-2 card1 py-6 px-8 text-left">
                 <ul className=" flex flex-col justify-center align-middle font-semibold  text-gray-50 text-xs ">
-                  <li className=" font-semibold  text-gray-50  py-3 ">Commodities: Beef cattle, Coffee,
+                  <li className=" font-semibold  text-gray-50  py-3 ">• Commodities: Beef cattle, Coffee,
                     Soybeans, Corn, Ethanol, and Gold</li>
-                  <li className=" font-semibold  text-gray-50  py-3 ">US Dollar and Mini Dollar</li>
-                  <li className=" font-semibold  text-gray-50  py-3 ">Ibovespa and Mini Ibovespa</li>
-                  <li className=" font-semibold  text-gray-50  py-3 ">FX Futures</li>
-                  <li className=" font-semibold  text-gray-50  py-3 ">Equity Indexes Futures</li>
+                  <li className=" font-semibold  text-gray-50  py-3 ">• US Dollar and Mini Dollar</li>
+                  <li className=" font-semibold  text-gray-50  py-3 ">• Ibovespa and Mini Ibovespa</li>
+                  <li className=" font-semibold  text-gray-50  py-3 ">• FX Futures</li>
+                  <li className=" font-semibold  text-gray-50  py-3 ">• Equity Indexes Futures</li>
                 </ul>
               </div>
             </div>
@@ -116,14 +120,14 @@ export default function Products() {
                   <h4 className="pt-2 font-medium  text-gray-50  text-center mb-2 border-b-2 py-2 text-sm">
                     Productcs
                   </h4>
-                  <li className=" font-semibold  text-gray-50  py-1 ">CDB (Certificate of Bank Deposit);</li>
-                  <li className=" font-semibold  text-gray-50  py-1 ">LC (Credit Letter);</li>
-                  <li className=" font-semibold  text-gray-50  py-1 ">LCI (Real Estate Credit Bills);</li>
-                  <li className=" font-semibold  text-gray-50  py-1 ">LCA (Agribusiness Credit Bills);</li>
-                  <li className=" font-semibold  text-gray-50  py-1 ">CRI (Real Estate Receivables Certificate);</li>
-                  <li className=" font-semibold  text-gray-50  py-1 ">CRA (Agribusiness Receivables Certificate);</li>
-                  <li className=" font-semibold  text-gray-50  py-1 ">Corporate Bonds;</li>
-                  <li className=" font-semibold  text-gray-50  py-1 ">Government Bonds.</li>
+                  <li className=" font-semibold  text-gray-50  py-1 ">• CDB (Certificate of Bank Deposit);</li>
+                  <li className=" font-semibold  text-gray-50  py-1 ">• LC (Credit Letter);</li>
+                  <li className=" font-semibold  text-gray-50  py-1 ">• LCI (Real Estate Credit Bills);</li>
+                  <li className=" font-semibold  text-gray-50  py-1 ">• LCA (Agribusiness Credit Bills);</li>
+                  <li className=" font-semibold  text-gray-50  py-1 ">• CRI (Real Estate Receivables Certificate);</li>
+                  <li className=" font-semibold  text-gray-50  py-1 ">• CRA (Agribusiness Receivables Certificate);</li>
+                  <li className=" font-semibold  text-gray-50  py-1 ">• Corporate Bonds;</li>
+                  <li className=" font-semibold  text-gray-50  py-1 ">• Government Bonds.</li>
                 </ul>
               </div>
             </div>
@@ -136,12 +140,12 @@ export default function Products() {
                   <h4 className="pt-2 font-medium  text-gray-50  text-center mb-2 border-b-2 py-2 text-sm">
                     Hightlights
                   </h4>
-                  <li className=" font-semibold  text-gray-50  py-3 ">Best rates in the market;</li>
-                  <li className=" font-semibold  text-gray-50  py-3 ">Possibility of secondary market trading;</li>
-                  <li className=" font-semibold  text-gray-50  py-3 ">Team focused on seeking opportunities;</li>
-                  <li className=" font-semibold  text-gray-50  py-3 ">More than 500 products available</li>
-                  <li className=" font-semibold  text-gray-50  py-3 ">CETIP Certification</li>
-
+                  <li className=" font-semibold  text-gray-50  py-3 ">• Best rates in the market;</li>
+                  <li className=" font-semibold  text-gray-50  py-3 ">• Possibility of secondary market trading;</li>
+                  <li className=" font-semibold  text-gray-50  py-3 ">• Team focused on seeking opportunities;</li>
+                  <li className=" font-semibold  text-gray-50  py-3 ">• More than 500 products available</li>
+                  <li className=" font-semibold  text-gray-50  py-3 ">• CETIP Certification</li>
+                 
                 </ul>
               </div>
             </div>
@@ -193,24 +197,24 @@ export default function Products() {
             </div>
           </div>
           <h3 className="t-8 px-8 sm:pl-0 font-normal  text-gray-50  text-left  my-5">
-            Highlights
+          Highlights
           </h3>
           <div className=" flex flex-col sm:flex-row  justify-between sm:items-center sm:mx-0 text-center">
 
             <div className=" flex flex-col basis-1/5 bnt-p py-3 px-1 mb-5 sm:mr-4 text-xs  text-gray-50">
-              Leverage
+            Leverage
             </div>
             <div className=" flex flex-col basis-1/5 bnt-p py-3 px-1 mb-5 sm:mr-4 text-xs  text-gray-50">
-              Competitive cost structure
+            Competitive cost structure
             </div>
             <div className=" flex flex-col basis-1/5 bnt-p py-3 px-1 mb-5 sm:mr-4 text-xs  text-gray-50">
-              Robust Infrastructure
+            Robust Infrastructure
             </div>
             <div className=" flex flex-col basis-1/5 bnt-p py-3 px-1 mb-5 sm:mr-4 text-xs  text-gray-50">
-              Strong back-office and Clearing
+            Strong back-office and Clearing
             </div>
             <div className=" flex flex-col basis-1/5 bnt-p py-3 px-1 mb-5  text-xs  text-gray-50">
-              Post Trade services
+            Post Trade services
             </div>
           </div>
         </div>

@@ -24,7 +24,7 @@ export default function About() {
                                         </div>
                                     </div>
                                     <div class="flex  items-center justify-center sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                                        <a href="/#forms" class="btn-forms text-white py-2 px-6 font-medium" aria-current="page">Get in touch</a>
+                                        <a href="/#forms" class=" text-xs btn-forms text-white py-2 px-6 font-medium" aria-current="page">Get in touch</a>
                                     </div>
                                 </div>
                                 <div class="flex-1  items-center justify-center sm:hidden block ">
@@ -378,14 +378,14 @@ export default function About() {
                     <h2 className=" font-light text-gray-50 py-8 ">
                         Business model
                     </h2>
-                    <div className=" flex flex-col sm:flex-row justify-between">
-                        <div className=" flex flex-col basis-6/12  justify-center  items-center ">
+                    <div className=" flex flex-col sm:flex-row justify-center">
+                        <div className=" text-left justify-center items-center   ">
                             <h3 className=" pt-2 font-semibold sm:text-md text-lg text-gray-50 text-left mb-2 ">
                                 Broker and Investment Manager
                             </h3>
-                            <div className="border-solid border-2 card1 py-6  text-left sm:px-24 px-12 ">
+                            <div className="flex flex-col basis-6/12 text-left justify-center items-center  border-solid border-2 card1 py-6  text-left sm:px-24 px-12 ">
                                 <h3 className="text-white text-left font-light">
-                                    <br />
+                                
 
                                     • Stocks <br />
                                     • Futures <br />
@@ -403,18 +403,14 @@ export default function About() {
                             <h3 className="pt-2 font-normal  text-gray-50  text-left mb-2">
                                 <br />
                             </h3>
-                            <div className="border-solid border-2 card1 py-6 sm:px-24 px-12 text-left">
+                            <div className=" flex  justify-center items-center border-solid border-2 card1 py-6 sm:px-8 px-12 text-left">
                                 <h3 className="text-white text-left font-light">
                                     • B2C<br />
                                     • B2B<br />
-                                    • Digital<br />
-                                    • Experience<br />
-                                    • Institutional<br />
-                                    • Clients<br />
-                                    • Agribusiness<br />
-                                    • Clients<br />
-                                    • Fiduciary<br />
-                                    • Administration
+                                    • Digital Experience<br />
+                                    • Institutional Clients<br />
+                                    • Agribusiness Clients<br />
+                                    • Fiduciary Administration
                                 </h3>
                             </div>
                         </div>

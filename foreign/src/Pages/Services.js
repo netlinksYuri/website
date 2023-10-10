@@ -24,8 +24,8 @@ export default function About() {
                     </div>
                   </div>
                   <div class="flex  items-center justify-center sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                    <a href="/#forms" class="btn-forms text-white py-2 px-6 font-medium" aria-current="page">Get in touch</a>
-                  </div>
+                                        <a href="/#forms" class=" text-xs btn-forms text-white py-2 px-6 font-medium" aria-current="page">Get in touch</a>
+                                    </div>
                 </div>
                 <div class="flex-1  items-center justify-center sm:hidden block ">
                   <div class="flex h-16 items-center justify-center nav ">
@@ -134,7 +134,7 @@ export default function About() {
             <h5 className="font-semibold uppercase text-white mb-5">
               Execution
             </h5>
-            <h2 className="  font-light  text-white">
+            <h2 className="  font-light h2b text-white">
               Detailed Services <br />
               Focused on high<br /> 
               Performing electronic<br /> 

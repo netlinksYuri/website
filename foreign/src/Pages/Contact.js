@@ -4,20 +4,66 @@ import './Contact.css'
 export default function Contact() {
     return (
 <div>
+<header>
+                {/* sessa 1*/}
+                <div className=" py-4 px-8 sm:px-16 pt-5" >
+                    {/* navegador*/}
+                    <nav class=" header max-w-6xl mx-auto" >
+                        <div class="   ">
+                            <div class="   ">
 
+                                <div class=" flex-row h-16 flex items-center justify-between sm:items-stretch sm:justify-between">
+                                    <div class=" items-center ">
+                                        <img class="h-16 w-auto" src="Logo NF_Positivo1 1.png" alt="logo" />
+                                    </div>
+                                    <div class="flex-1  items-center justify-center hidden sm:ml-6 sm:block">
+                                        <div class="flex h-16 items-center justify-center nav ">
+                                            <a href="/" class=" font-bold px-4 py-2 text-xs ">HOME</a>
+                                            <a href="/About" class="  font-bold px-4 py-2 text-xs ">ABOUT</a>
+                                            <a href="/Products" class="  font-bold px-4 py-2 text-xs ">PRODUCTS</a>
+                                            <a href="/Services" class="  font-bold px-4 py-2 text-xs ">SERVICES</a>
+                                            <a href="/Contact" class="  font-bold px-4 py-2 text-xs ">CONTACT</a>
+                                        </div>
+                                    </div>
+                                    <div class="flex  items-center justify-center sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                                        <a href="/#forms" class=" text-xs btn-forms text-white py-2 px-6 font-medium" aria-current="page">Get in touch</a>
+                                    </div>
+                                </div>
+                                <div class="flex-1  items-center justify-center sm:hidden block ">
+                                    <div class="flex h-16 items-center justify-center nav ">
+                                        <a href="/" class=" font-bold px-2 py-2 text-sx font-bold">HOME</a>
+                                        <a href="/About" class="font-bold  px-2 py-2 text-sx font-bold">ABOUT</a>
+                                        <a href="/Products" class="font-bold  px-2 py-2 text-sx font-bold">PRODUCTS</a>
+                                        <a href="/Services" class="font-bold  px-2 py-2 text-sx font-bold">SERVICES</a>
+                                        <a href="/Contact" class="font-bold  px-2 py-2 text-sx font-bold">CONTACT</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </nav>
+
+                  
+
+                 
+                </div>
+
+            </header>
    {/* sessa 8 -  */}
    <div className="ss8-C">
           <div className="max-w-6xl mx-auto py-2 sm:py-24 flex flex-col sm:flex-row  justify-center items-center px-8 sm:px-0  ">
       
 
          <div className="flex justify-center sm:my-16 my-8 basis-6/12  ">
-<div className=" sm:py-8 py-2 sm:px-12 px-2 ss3">
+<div className="  sm:px-12 px-2 ss3">
 <Contacts/>
 </div>
          </div>
-         <div className="flex  justify-center my-16 basis-6/12 ">
+         <div className="flex  justify-center  basis-6/12 ">
          <div className="flex flex-col   ">
-            <div className='flex flex-row text-white items-center mb-5'>
+            <div className='flex flex-row text-white items-center mb-9'>
                <div>
                <img class="h-auto w-auto pr-4" src="2.png" alt="logo" />
                </div>
@@ -25,7 +71,7 @@ export default function Contact() {
                   <p>@novafuturainvestimentos</p>
                   </div>
             </div>
-            <div className='flex flex-row text-white items-center mb-5'>
+            <div className='flex flex-row text-white items-center mb-9'>
                <div>
                <img class="h-auto w-auto pr-4" src="1.png" alt="logo" />
                </div>
@@ -33,7 +79,7 @@ export default function Contact() {
                   <p>/novafuturainvestimentos</p>
                   </div>
             </div>
-            <div className='flex flex-row text-white items-center mb-5'>
+            <div className='flex flex-row text-white items-center mb-9'>
                <div>
                <img class="h-auto w-auto pr-4" src="4.png" alt="logo" />
                </div>
@@ -41,7 +87,7 @@ export default function Contact() {
                   <p>Nova Futura Investimentos</p>
                   </div>
             </div>
-            <div className='flex flex-row text-white items-center   mb-5'>
+            <div className='flex flex-row text-white items-center   mb-9'>
                <div>
                <img class="h-auto w-auto   pr-4 " src="7.png" alt="logo" />
                </div>
@@ -49,7 +95,7 @@ export default function Contact() {
                   <p>@/novafuturanewf</p>
                   </div>
             </div>
-            <div className='flex flex-row text-white items-center mb-5'>
+            <div className='flex flex-row text-white items-center mb-9'>
                <div>
                <img class="h-auto w-auto pr-4" src="3.png" alt="logo" />
                </div>
@@ -57,7 +103,7 @@ export default function Contact() {
                   <p>nfinvestimentos</p>
                   </div>
             </div>
-            <div className='flex flex-row text-white items-center mb-5'>
+            <div className='flex flex-row text-white items-center mb-9'>
                <div>
                <img class="h-auto w-auto pr-4" src="6.png" alt="logo" />
                </div>
@@ -65,7 +111,7 @@ export default function Contact() {
                   <p>@/novafutura</p>
                   </div>
             </div>
-            <div className='flex flex-row text-white items-center mb-5'>
+            <div className='flex flex-row text-white items-center mb-9'>
                <div>
                <img class="h-auto w-auto pr-4" src="5.png" alt="logo" />
                </div>
