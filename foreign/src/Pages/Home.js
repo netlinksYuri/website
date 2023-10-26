@@ -109,7 +109,8 @@ export default function Home() {
                 MARINGÁ - PR
               </h3>
               <p className="py-2 font-semibold cardss2">
-                Av. Pedro Tasques, 294 - 5th floor - Room 503<br />
+                Av. Pedro Taques, 294 <br />
+                 5th floor - Room 503<br />
                 Postal Code 87030-000<br />
                 Phone: (44) 330415615
               </p>

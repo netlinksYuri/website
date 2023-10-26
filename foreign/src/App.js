@@ -61,20 +61,23 @@ export default function App() {
                             SiteMap
                         </h5>
                         <ul className='navf flex sm:flex-col flex-row flex-wrap'>
-                            <li className=' sm:mt-5 mb-8  mr-10 font-semibold '>
+                            <li className=' sm:mt-5 mb-5 mr-10 font-semibold '>
                                 <a href="/">Home</a>
                             </li>
-                            <li className='mb-8  mr-10 font-semibold'>
+                            <li className='mb-5 mr-10 font-semibold'>
                                 <a href="/About">About</a>
                             </li>
-                            <li className='mb-8  mr-10 font-semibold'>
+                            <li className='mb-5 mr-10 font-semibold'>
                                 <a href="/Products">Products</a>
                             </li>
-                            <li className='mb-8  mr-10 font-semibold'>
+                            <li className='mb-5 mr-10 font-semibold'>
                                 <a href="/Services">Services</a>
                             </li>
-                            <li className='mb-8  mr-10 font-semibold'>
+                            <li className='mb-5 mr-10 font-semibold'>
                                 <a href="/Contact">Contact</a>
+                            </li>
+                            <li className='mb-5 mr-10 font-semibold'>
+                                <a href="PrivacyPolicy.pdf">Privacy Policy</a>
                             </li>
                         </ul>
                     </div>
