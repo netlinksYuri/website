@@ -1,7 +1,12 @@
-
+import Helmet from 'react-helmet';
 export default function Products() {
   return (
     <div>
+      <Helmet>
+      <title>Contact - Nova Futura</title>
+      <meta name="description" content="Adiconar texto"></meta>
+      <meta name="keywords" content=""></meta>
+    </Helmet>
       <header>
         {/* sessa 1*/}
         <div className=" ss1 px-8 sm:px-16 pt-5" >

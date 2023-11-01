@@ -1,9 +1,14 @@
 import Contacts from '../componets/contacts';
 import './Contact.css'
-
+import Helmet from 'react-helmet';
 export default function Contact() {
     return (
 <div>
+<Helmet>
+      <title>Contact - Nova Futura</title>
+      <meta name="description" content="Adiconar texto"></meta>
+      <meta name="keywords" content=""></meta>
+    </Helmet>
 <header>
                 {/* sessa 1*/}
                 <div className=" py-4 px-8 sm:px-16 pt-5" >

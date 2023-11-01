@@ -1,11 +1,18 @@
 import Forms from "../componets/forms"
 import Contacts from '../componets/contacts';
 import './Home.css'
+import Helmet from 'react-helmet';
 export default function Home() {
   return (
 
     <div>
+            <Helmet>
+      <title>Foreign - Nova Futura</title>
+      <meta name="description" content="Adiconar texto"></meta>
+      <meta name="keywords" content=""></meta>
+    </Helmet>
            <header>
+            
                 {/* sessa 1*/}
                 <div className=" ss1 px-8 sm:px-16 pt-5" >
                     {/* navegador*/}
