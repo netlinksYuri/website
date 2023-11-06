@@ -65,7 +65,7 @@ export default function Home() {
                             We are a solid broker and investment manager with <br className='sm:block hidden' />
                             <span className="font-semibold">40 years of tradition. </span> <br className='sm:block hidden' />
                             Throughout our history, we have been prominent in <br className='sm:block hidden' />
-                            equity and derivativemarkets.
+                            equity and derivative markets.
                         </h5>
 
                         <img className="max-w-2xl sm:mt-12 mt-6 hidden  sm:block img" src="s1-svgs.png" alt="diferenciais" />
@@ -99,9 +99,9 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className=" flex flex-col basis-1/2  justify-end sm:pl-5 pl-0 my-4 ">
+          <div className=" flex flex-col basis-1/2  justify-center sm:pl-5 pl-0 my-4 ">
             <p className=" textss2 font-normal sm:mt-10  my-3 sm:text-left text-center ">
-              <span className="font-bold  ">+over 24 </span>
+              <span className="font-bold over text-center  ">+over 24 </span>
               <br className="sm:block hidden"  />
               authorized <br className="sm:block hidden" />locals offices <br className="sm:block hidden" />in Brazil
             </p>
@@ -206,7 +206,7 @@ export default function Home() {
               <div className="border-solid border-2 card1 py-6 px-8 text-left">
                 <ul className=" flex flex-col justify-center align-middle font-semibold  text-gray-50 text-xs ">
                   <h4 className="pt-2 font-medium  text-gray-50  text-center mb-2 border-b-2 py-2 text-sm">
-                    Productcs
+                    Products
                   </h4>
                   <li className=" font-semibold  text-gray-50  py-1 ">• CDB (Certificate of Bank Deposit);</li>
                   <li className=" font-semibold  text-gray-50  py-1 ">• LC (Credit Letter);</li>
@@ -462,7 +462,32 @@ trade services:
             Online experience
             </h2>
           </div>
-          <img className=" mx-auto" src="app.png" alt="logo" />
+          {/* sessao 5*/}
+          <div className=" py-24">
+                <div className="flex flex-row justify-center  max-w-6xl mx-auto ">
+
+                    <div className=" flex flex-col basis-6/12  items-center p-3 card">
+                        <div className="text-left">
+                            <img className=" mx-auto" src="phoneProducts.png" alt="logo" />
+
+                        </div>
+                    </div>
+                    <div className=" flex flex-col basis-6/12  justify-center  ">
+                        <h3 className="font-semibold text-left app text-lg ">
+                            We provide the best online experience, <br className="sm:block hidden" />
+                            enabling the use of a wide range of <br className="sm:block hidden" />
+                            platforms to serve all types of investors
+                        </h3>
+                        <p className="font-normal text-left text-sm mt-4  "><span className="font-bold">All your investments in one place.</span> <br />
+                            Download the Nova Futura app to invest<br />
+                            with freedom and all the support<br />
+                            you may need.</p>
+                        <div className="mt-12">
+                            <a href="#" class="btn-forms mt-4 py-3 px-8 text-gray-50" aria-current="page">Download now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
           <h3 className="  font-bold pb-8  ">
           Partner platforms
             </h3>

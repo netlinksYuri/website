@@ -61,7 +61,7 @@ export default function About() {
               We are a solid broker and investment manager with <br className='sm:block hidden' />
               <span className="font-semibold">40 years of tradition. </span> <br className='sm:block hidden' />
               Throughout our history, we have been prominent in <br className='sm:block hidden' />
-              equity and derivativemarkets.
+              equity and derivative markets.
             </h5>
 
             <div class="flex  items-center pt-10">

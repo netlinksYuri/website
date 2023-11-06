@@ -77,7 +77,7 @@ export default function App() {
                                 <a href="/Contact">Contact</a>
                             </li>
                             <li className='mb-5 mr-10 font-semibold'>
-                                <a href="PrivacyPolicy.pdf">Privacy Policy</a>
+                                <a target="_blank" href="PrivacyPolicy.pdf">Privacy Policy</a>
                             </li>
                         </ul>
                     </div>

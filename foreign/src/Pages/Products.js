@@ -60,7 +60,7 @@ export default function Products() {
               We are a solid broker and investment manager with <br className='sm:block hidden' />
               <span className="font-semibold">40 years of tradition. </span> <br className='sm:block hidden' />
               Throughout our history, we have been prominent in <br className='sm:block hidden' />
-              equity and derivativemarkets.
+              equity and derivative markets.
             </h5>
 
             <div class="flex  items-center pt-10">
@@ -76,7 +76,7 @@ export default function Products() {
      <div className="ss3  py-16">
         <div className=" max-w-6xl sm:max-md sm:mx-auto  ">
         <h5 className="font-semibold">
-        OUR PRODUCTS
+        #AACBDE
             </h5>
           <h2 className=" font-light text-gray-50 py-8 pl-8 sm:pl-0 ">
             Products
@@ -123,7 +123,7 @@ export default function Products() {
               <div className="border-solid border-2 card1 py-6 px-8 text-left">
                 <ul className=" flex flex-col justify-center align-middle font-semibold  text-gray-50 text-xs ">
                   <h4 className="pt-2 font-medium  text-gray-50  text-center mb-2 border-b-2 py-2 text-sm">
-                    Productcs
+                    Products
                   </h4>
                   <li className=" font-semibold  text-gray-50  py-1 ">• CDB (Certificate of Bank Deposit);</li>
                   <li className=" font-semibold  text-gray-50  py-1 ">• LC (Credit Letter);</li>
@@ -180,25 +180,25 @@ export default function Products() {
           <div className=" flex flex-col sm:flex-row  justify-between items-center  text-center">
 
             <div className=" flex flex-col basis-1/2 sm:basis-1/7  py-3  text-gray-50">
-              <img class="h-auto w-auto" src="div.e-con-inner.png" alt="logo" />
+              <img class="img" width="162" height="106" src="div.e-con-inner.png" alt="logo" />
             </div>
             <div className=" flex flex-col basis-1/2 sm:basis-1/7  py-3  text-gray-50">
-              <img class="h-auto w-auto" src="div.e-con-inner-1.png" alt="logo" />
+              <img class="img"width="162" height="106" src="div.e-con-inner-1.png" alt="logo" />
             </div>
             <div className=" flex flex-col basis-1/2 sm:basis-1/7  py-3  text-gray-50">
-              <img class="h-auto w-auto" src="div.e-con-inner-2.png" alt="logo" />
+              <img class="img" width="165" height="106" src="div.e-con-inner-2.png" alt="logo" />
             </div>
             <div className=" flex flex-col basis-1/2 sm:basis-1/7  py-3  text-gray-50">
-              <img class="h-auto w-auto" src="div.e-con-inner-3.png" alt="logo" />
+              <img class="img" width="161" height="106" src="div.e-con-inner-3.png" alt="logo" />
             </div>
             <div className=" flex flex-col basis-1/2 sm:basis-1/7  py-3  text-gray-50">
-              <img class="h-auto w-auto" src="div.e-con-inner-4.png" alt="logo" />
+              <img class="img" width="161" height="106" src="div.e-con-inner-4.png" alt="logo" />
             </div>
             <div className=" flex flex-col basis-1/2 sm:basis-1/7  py-3  text-gray-50">
-              <img class="h-auto w-auto" src="div.e-con-inner-5.png" alt="logo" />
+              <img class="img" width="163" height="106" src="div.e-con-inner-5.png" alt="logo" />
             </div>
             <div className=" flex flex-col basis-1/2 sm:basis-1/7  py-3  text-gray-50">
-              <img class="h-auto w-auto" src="div.e-con-inner-6.png" alt="logo" />
+              <img class="img" height="107" width="163" src="div.e-con-inner-6.png" alt="logo" />
             </div>
           </div>
           <h3 className="t-8 px-8 sm:pl-0 font-normal  text-gray-50  text-left  my-5">

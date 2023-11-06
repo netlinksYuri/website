@@ -161,13 +161,13 @@ background: #222f45;
 }
 
 .ss4{
-  background-image: url(https://foreign.novafutura.com.br/wp-content/uploads/2023/09/div.elementor-element-1.png);
+  background-image: url(https://foreign.novafutura.com.br/wp-content/uploads/2023/11/base-s4-1.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .ss8{
-  background-image: url(https://foreign.novafutura.com.br/wp-content/uploads/2023/09/image-48.png);
+  background-image: url(https://foreign.novafutura.com.br/wp-content/uploads/2023/11/ar-livre-azul-novo-edificio-da-baixa-1-1.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -179,4 +179,8 @@ background: #222f45;
 
 .img{
   margin-left: -20px;
+}
+
+.over{
+  font-size: 28px;
 }
