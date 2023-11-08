@@ -11,9 +11,8 @@ export default function Home() {
       <meta name="description" content="Adiconar texto"></meta>
       <meta name="keywords" content=""></meta>
     </Helmet>
+     {/* sessão 1*/}
            <header>
-            
-                {/* sessa 1*/}
                 <div className=" ss1 px-8 sm:px-16 pt-5" >
                     {/* navegador*/}
                     <nav class=" header max-w-6xl mx-auto" >
@@ -158,8 +157,8 @@ export default function Home() {
       {/* sessao 3 - Products*/}
       <div className="ss3  py-16">
         <div className=" max-w-6xl sm:max-md sm:mx-auto  ">
-        <h5 className="font-semibold">
-        OUR PRODUCTS
+        <h5 className="font-semibold pl-8 sm:pl-0">
+        #AACBDE
             </h5>
           <h2 className=" font-light text-gray-50 py-8 pl-8 sm:pl-0 ">
             Products
@@ -463,8 +462,8 @@ trade services:
             </h2>
           </div>
           {/* sessao 5*/}
-          <div className=" py-24">
-                <div className="flex flex-row justify-center  max-w-6xl mx-auto ">
+          <div className=" py-4">
+                <div className="flex flex-col sm:flex-row justify-center  max-w-6xl mx-auto ">
 
                     <div className=" flex flex-col basis-6/12  items-center p-3 card">
                         <div className="text-left">
@@ -482,12 +481,12 @@ trade services:
                             Download the Nova Futura app to invest<br />
                             with freedom and all the support<br />
                             you may need.</p>
-                        <div className="mt-12">
+                        <div className="my-12 ">
                             <a href="#" class="btn-forms mt-4 py-3 px-8 text-gray-50" aria-current="page">Download now</a>
                         </div>
                     </div>
                 </div>
-            </div>
+                </div>
           <h3 className="  font-bold pb-8  ">
           Partner platforms
             </h3>
@@ -497,7 +496,7 @@ trade services:
           </div>
            {/* sessa 7 -Partner */}
        <div className="ss7 max-w-6xl mx-auto pt-4 pb-36 ">
-       <img className=" mx-auto" src="ss7.png" alt="logo" />
+       <img className=" mx-auto" src="ss7-1.png" alt="logo" />
        </div>
           {/* sessa 8 - Contact*/}
           <div className="ss8" id="forms">

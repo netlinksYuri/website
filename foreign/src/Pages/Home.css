@@ -80,6 +80,16 @@ letter-spacing: 1.374px;
       line-height: 48px; /* 118.519% */
 letter-spacing: 1.374px;
     }
+.cards {
+      height: auto !important; 
+  }
+
+  .capaapp{
+
+   
+    font-size: 13px !important;
+    /* 160% */
+    }
     
 }
 

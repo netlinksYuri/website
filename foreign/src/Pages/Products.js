@@ -75,7 +75,7 @@ export default function Products() {
 
      <div className="ss3  py-16">
         <div className=" max-w-6xl sm:max-md sm:mx-auto  ">
-        <h5 className="font-semibold">
+        <h5 className="font-semibold pl-8 sm:pl-0">
         #AACBDE
             </h5>
           <h2 className=" font-light text-gray-50 py-8 pl-8 sm:pl-0 ">
@@ -224,7 +224,7 @@ export default function Products() {
           </div>
         </div>
       </div>
-      {/* sessa 2*/}
+      {/* sessa 2 - call to action */}
       <div className="flex justify-center items-center text-left max-w-6xl mx-auto py-24 px-8 sm:px-0  ">
         <h2 className="" >
           Our founder is one of the founding <br className="sm:block hidden" />
@@ -232,9 +232,9 @@ export default function Products() {
           Exchange formerly named BM&F.
         </h2>
       </div>
-      {/* sessa 3*/}
+      {/* sessa 3 - Services*/}
       <div className="ss4 py-24">
-        <div className="flex flex-row justify-center  max-w-6xl mx-auto ">
+        <div className="flex flex-col sm:flex-row justify-center  max-w-6xl sm:mx-auto mx-10">
 
           <div className=" flex flex-col basis-6/12  items-center p-3 card">
             <div className="text-left">

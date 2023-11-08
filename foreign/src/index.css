@@ -59,4 +59,7 @@ line-height: 16px; /* 160% */
   h1{
         font-size: 48px;
       }
+      .mr-44 {
+        margin-right: 0rem !important;
+    }
   }
