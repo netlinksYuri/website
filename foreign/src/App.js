@@ -9,7 +9,7 @@ export default function App() {
             <footer className='bg-gray-50 '>
                 <div className='flex flex-col sm:flex-row max-w-6xl justify-center  mx-auto py-16 px-8 sm:px-0 '>
                     <div className='flex flex-col basis-2/5 mr-12'>
-                        <img class=" mr-44 sm:mr-64" src="Logo NF_Positivo1 1.png" alt="logo" />
+                        <img class=" mr-44 sm:mr-64" src="Logo NF_Positivo1 1.png" width="154" height="80" alt="logo" />
 
                         <p className='py-3 sm:py-6 p sm:ml-5 text-sm font-semibold'>
                             We simplify investments with efficient services and 
