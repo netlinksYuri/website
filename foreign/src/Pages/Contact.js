@@ -23,11 +23,11 @@ export default function Contact() {
                                     </div>
                                     <div class="flex-1  items-center justify-center hidden sm:ml-6 sm:block">
                                     <div class="flex h-16 items-center justify-center nav ">
-                                            <a href="/nri" class=" font-bold px-4 py-2 text-xs ">HOME</a>
-                                            <a href="/nri/about" class="  font-bold px-4 py-2 text-xs ">ABOUT</a>
-                                            <a href="/nri/products" class="  font-bold px-4 py-2 text-xs ">PRODUCTS</a>
-                                            <a href="/nri/services" class="  font-bold px-4 py-2 text-xs ">SERVICES</a>
-                                            <a href="/nri/contact" class="  font-bold px-4 py-2 text-xs ">CONTACT</a>
+                                            <a href="/inr" class=" font-bold px-4 py-2 text-xs ">HOME</a>
+                                            <a href="/inr/about" class="  font-bold px-4 py-2 text-xs ">ABOUT</a>
+                                            <a href="/inr/products" class="  font-bold px-4 py-2 text-xs ">PRODUCTS</a>
+                                            <a href="/inr/services" class="  font-bold px-4 py-2 text-xs ">SERVICES</a>
+                                            <a href="/inr/contact" class="  font-bold px-4 py-2 text-xs ">CONTACT</a>
                                         </div>
                                     </div>
                                     <div class="flex  items-center justify-center sm:static sm:inset-auto sm:ml-6 sm:pr-0">
@@ -36,11 +36,11 @@ export default function Contact() {
                                 </div>
                                 <div class="flex-1  items-center justify-center sm:hidden block ">
                                     <div class="flex h-16 items-center justify-center nav ">
-                                        <a href="/" class=" font-bold px-2 py-2 text-sx font-bold">HOME</a>
-                                        <a href="/About" class="font-bold  px-2 py-2 text-sx font-bold">ABOUT</a>
-                                        <a href="/Products" class="font-bold  px-2 py-2 text-sx font-bold">PRODUCTS</a>
-                                        <a href="/Services" class="font-bold  px-2 py-2 text-sx font-bold">SERVICES</a>
-                                        <a href="/Contact" class="font-bold  px-2 py-2 text-sx font-bold">CONTACT</a>
+                                    <a href="/inr" class=" font-bold px-4 py-2 text-xs ">HOME</a>
+                                            <a href="/inr/about" class="  font-bold px-4 py-2 text-xs ">ABOUT</a>
+                                            <a href="/inr/products" class="  font-bold px-4 py-2 text-xs ">PRODUCTS</a>
+                                            <a href="/inr/services" class="  font-bold px-4 py-2 text-xs ">SERVICES</a>
+                                            <a href="/inr/contact" class="  font-bold px-4 py-2 text-xs ">CONTACT</a>
                                     </div>
                                 </div>
                             </div>
