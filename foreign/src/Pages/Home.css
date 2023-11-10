@@ -1,9 +1,6 @@
 .nav{
-  color: #293953;
-
-
+color: #293953;
 font-size: 10px;
-
 font-weight: 700;
 line-height: 16px; /* 160% */
 letter-spacing: 2px;
@@ -22,10 +19,10 @@ text-transform: uppercase;
 .ss1 h1{
   color: #293953;
 
-font-size: 67.431px;
+font-size: 60px;
 font-style: normal;
 
-line-height: 79.918px; /* 118.519% */
+line-height: 70px; /* 118.519% */
 letter-spacing: 1.374px;
 }
 .btn-forms{
@@ -61,7 +58,15 @@ h5{
   
     line-height: 23.976px; /* 160% */
     }
+    .h5p{
 
+      color: #AACBDE;
+      background-color: transparent;
+      font-size: 14.985px;
+      font-style: normal;
+    
+      line-height: 23.976px; /* 160% */
+      }
 .h2{
 
 color: #293953;
@@ -187,8 +192,9 @@ background: #222f45;
 
 }
 
-.img{
-  margin-left: -20px;
+.img {
+  margin-left: -5px;
+  width: 742px;
 }
 
 .over{

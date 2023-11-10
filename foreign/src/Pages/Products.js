@@ -1,9 +1,10 @@
 import Helmet from 'react-helmet';
+
 export default function Products() {
   return (
     <div>
       <Helmet>
-      <title>Contact - Nova Futura</title>
+      <title>Products - Nova Futura</title>
       <meta name="description" content="Adiconar texto"></meta>
       <meta name="keywords" content=""></meta>
     </Helmet>
@@ -75,8 +76,8 @@ export default function Products() {
 
      <div className="ss3  py-16">
         <div className=" max-w-6xl sm:max-md sm:mx-auto  ">
-        <h5 className="font-semibold pl-8 sm:pl-0">
-        #AACBDE
+        <h5 className="h5p font-semibold pl-8 sm:pl-0">
+        OUR PRODUCTS
             </h5>
           <h2 className=" font-light text-gray-50 py-8 pl-8 sm:pl-0 ">
             Products
@@ -116,11 +117,14 @@ export default function Products() {
                 </ul>
               </div>
             </div>
-            <div className=" flex flex-col basis-1/4 px-8 sm:pl-0 ">
+            <div className=" flex flex-col basis-2/4 px-8 sm:pl-0 ">
               <h3 className="pt-2 font-normal  text-gray-50  text-left mb-2">
                 Fixed income
               </h3>
-              <div className="border-solid border-2 card1 py-6 px-8 text-left">
+
+              <div className="flex  basis-1/2  border-solid border-2 card1 py-6 px-8 text-left">
+
+                <div className=" flex  basis-1/2  py-6 px-8 text-left">
                 <ul className=" flex flex-col justify-center align-middle font-semibold  text-gray-50 text-xs ">
                   <h4 className="pt-2 font-medium  text-gray-50  text-center mb-2 border-b-2 py-2 text-sm">
                     Products
@@ -134,13 +138,9 @@ export default function Products() {
                   <li className=" font-semibold  text-gray-50  py-1 ">• Corporate Bonds;</li>
                   <li className=" font-semibold  text-gray-50  py-1 ">• Government Bonds.</li>
                 </ul>
-              </div>
-            </div>
-            <div className=" flex flex-col basis-1/4 px-8 sm:pl-0  ">
-              <h3 className="pt-2 font-normal  text-gray-50  text-left mb-2">
-                <br />
-              </h3>
-              <div className="border-solid border-2 card1 py-6 px-8 text-left">
+                </div>
+
+                <div className="flex align-top basis-1/2  py-6 px-8 text-left">
                 <ul className=" flex flex-col justify-center align-middle font-semibold  text-gray-50 text-xs ">
                   <h4 className="pt-2 font-medium  text-gray-50  text-center mb-2 border-b-2 py-2 text-sm">
                     Hightlights
@@ -152,9 +152,12 @@ export default function Products() {
                   <li className=" font-semibold  text-gray-50  py-3 ">• CETIP Certification</li>
                  
                 </ul>
+                </div>
               </div>
+    
+             
+            
             </div>
-
           </div>
           <h3 className="pt-8 px-8 sm:pl-0 font-normal  text-gray-50  text-left mb-5">
             Execution Services

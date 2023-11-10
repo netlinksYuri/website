@@ -21,7 +21,7 @@ export default function Home() {
                               
                                 <div class=" flex-row h-16 flex items-center justify-between sm:items-stretch sm:justify-between">
                                     <div class=" items-center ">
-                                        <img class="h-16 w-auto" src="Logo NF_Positivo1 1.png" alt="logo" />
+                                        <img class="h-20 w-auto" src="Logo NF_Positivo1 1.png" alt="logo" />
                                     </div>
                                     <div class="flex-1  items-center justify-center hidden sm:ml-6 sm:block">
                                         <div class="flex h-16 items-center justify-center nav ">
@@ -67,7 +67,7 @@ export default function Home() {
                             equity and derivative markets.
                         </h5>
 
-                        <img className="max-w-2xl sm:mt-12 mt-6 hidden  sm:block img" src="s1-svgs.png" alt="diferenciais" />
+                        <img className=" sm:mt-12 mt-6 hidden  sm:block img svg" src="icons.png" alt="diferenciais" />
                         <img className="max-w-2xl sm:mt-12 mt-12 sm:hidden block" src="ss1.png" alt="diferenciais" />
                     
                     </div>
@@ -157,8 +157,8 @@ export default function Home() {
       {/* sessao 3 - Products*/}
       <div className="ss3  py-16">
         <div className=" max-w-6xl sm:max-md sm:mx-auto  ">
-        <h5 className="font-semibold pl-8 sm:pl-0">
-        #AACBDE
+        <h5 className="h5p font-semibold pl-8 sm:pl-0">
+        OUR PRODUCTS
             </h5>
           <h2 className=" font-light text-gray-50 py-8 pl-8 sm:pl-0 ">
             Products

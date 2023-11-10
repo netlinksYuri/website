@@ -10,3 +10,12 @@ line-height: normal;
     width: 162px;
     height: 106px ;
 }
+.h5p{
+
+    color: #AACBDE;
+    background-color: transparent;
+    font-size: 14.985px;
+    font-style: normal;
+  
+    line-height: 23.976px; /* 160% */
+    }
