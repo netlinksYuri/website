@@ -18,28 +18,28 @@ import Contact from './Pages/Contact'
 const Rotas = createBrowserRouter([
 
   {
-    path:"/inr" ,
+    path:"/" ,
     element: <App/>,
     children:[
       {
-        path:"/inr" ,
+        path:"/" ,
         element: <Home />
     },
     {
-        path:"/inr/about",
+        path:"/about",
         element:<About />
     },
     {
-      path:"/inr/products",
+      path:"/products",
       element:<Products/>
   },
 
   {
-    path:"/inr/services",
+    path:"/services",
     element:<Services/>
 },
 {
-  path:"/inr/contact",
+  path:"contact",
   element:<Contact/>
 },
     ]

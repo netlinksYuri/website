@@ -14,8 +14,8 @@ export default function Home() {
      {/* sessão 1*/}
            <header>
                 <div className=" ss1 px-8 sm:px-16 pt-5" >
-                    {/* navegador*/}
-                    <nav class=" header max-w-6xl mx-auto" >
+                     {/* navegador*/}
+                     <nav class=" header max-w-6xl mx-auto" >
                         <div class="   ">
                             <div class="   ">
                               
@@ -25,11 +25,11 @@ export default function Home() {
                                     </div>
                                     <div class="flex-1  items-center justify-center hidden sm:ml-6 sm:block">
                                         <div class="flex h-16 items-center justify-center nav ">
-                                        <a href="/inr" class=" font-bold px-4 py-2 text-xs ">HOME</a>
-                                            <a href="/inr/about" class="  font-bold px-4 py-2 text-xs ">ABOUT</a>
-                                            <a href="/inr/products" class="  font-bold px-4 py-2 text-xs ">PRODUCTS</a>
-                                            <a href="/inr/services" class="  font-bold px-4 py-2 text-xs ">SERVICES</a>
-                                            <a href="/inr/contact" class="  font-bold px-4 py-2 text-xs ">CONTACT</a>
+                                        <a href="/" class=" font-bold px-4 py-2 text-xs ">HOME</a>
+                                            <a href="/about" class="  font-bold px-4 py-2 text-xs ">ABOUT</a>
+                                            <a href="/products" class="  font-bold px-4 py-2 text-xs ">PRODUCTS</a>
+                                            <a href="/services" class="  font-bold px-4 py-2 text-xs ">SERVICES</a>
+                                            <a href="/contact" class="  font-bold px-4 py-2 text-xs ">CONTACT</a>
                                         </div>
                                     </div>
                                     <div class="flex  items-center justify-center sm:static sm:inset-auto sm:ml-6 sm:pr-0">
@@ -38,18 +38,16 @@ export default function Home() {
                                 </div>
                                 <div class="flex-1  items-center justify-center sm:hidden block ">
                                         <div class="flex h-16 items-center justify-center nav ">
-                                        <a href="/inr" class=" font-bold px-4 py-2 text-xs ">HOME</a>
-                                            <a href="/inr/about" class="  font-bold px-4 py-2 text-xs ">ABOUT</a>
-                                            <a href="/inr/products" class="  font-bold px-4 py-2 text-xs ">PRODUCTS</a>
-                                            <a href="/inr/services" class="  font-bold px-4 py-2 text-xs ">SERVICES</a>
-                                            <a href="/inr/contact" class="  font-bold px-4 py-2 text-xs ">CONTACT</a>
+                                        <a href="/" class=" font-bold px-4 py-2 text-xs ">HOME</a>
+                                            <a href="/about" class="  font-bold px-4 py-2 text-xs ">ABOUT</a>
+                                            <a href="/products" class="  font-bold px-4 py-2 text-xs ">PRODUCTS</a>
+                                            <a href="/services" class="  font-bold px-4 py-2 text-xs ">SERVICES</a>
+                                            <a href="/contact" class="  font-bold px-4 py-2 text-xs ">CONTACT</a>
                                         </div>
                                         </div>
                             </div>
                         </div>
 
-
-                        
                     </nav>
 
                     {/* sessao 1 - Conteudo*/}
@@ -67,7 +65,7 @@ export default function Home() {
                             equity and derivative markets.
                         </h5>
 
-                        <img className=" sm:mt-12 mt-6 hidden  sm:block img svg" src="icons.png" alt="diferenciais" />
+                        <img className=" sm:mt-12 mt-6 hidden  sm:block imgcap" src="icons.png" alt="diferenciais" />
                         <img className="max-w-2xl sm:mt-12 mt-12 sm:hidden block" src="ss1.png" alt="diferenciais" />
                     
                     </div>
@@ -155,7 +153,9 @@ export default function Home() {
       </div>
 
       {/* sessao 3 - Products*/}
-      <div className="ss3  py-16">
+      {/* sessao 2 - Products*/}
+
+     <div className="ss3  py-16">
         <div className=" max-w-6xl sm:max-md sm:mx-auto  ">
         <h5 className="h5p font-semibold pl-8 sm:pl-0">
         OUR PRODUCTS
@@ -198,11 +198,14 @@ export default function Home() {
                 </ul>
               </div>
             </div>
-            <div className=" flex flex-col basis-1/4 px-8 sm:pl-0 ">
+            <div className=" flex flex-col basis-2/4 px-8 sm:pl-0 ">
               <h3 className="pt-2 font-normal  text-gray-50  text-left mb-2">
                 Fixed income
               </h3>
-              <div className="border-solid border-2 card1 py-6 px-8 text-left">
+
+              <div className="flex  basis-1/2  border-solid border-2 card1 py-6 px-8 text-left">
+
+                <div className=" flex  basis-1/2  py-6 px-8 text-left">
                 <ul className=" flex flex-col justify-center align-middle font-semibold  text-gray-50 text-xs ">
                   <h4 className="pt-2 font-medium  text-gray-50  text-center mb-2 border-b-2 py-2 text-sm">
                     Products
@@ -216,13 +219,9 @@ export default function Home() {
                   <li className=" font-semibold  text-gray-50  py-1 ">• Corporate Bonds;</li>
                   <li className=" font-semibold  text-gray-50  py-1 ">• Government Bonds.</li>
                 </ul>
-              </div>
-            </div>
-            <div className=" flex flex-col basis-1/4 px-8 sm:pl-0  ">
-              <h3 className="pt-2 font-normal  text-gray-50  text-left mb-2">
-                <br />
-              </h3>
-              <div className="border-solid border-2 card1 py-6 px-8 text-left">
+                </div>
+
+                <div className="flex align-top basis-1/2  py-6 px-8 text-left">
                 <ul className=" flex flex-col justify-center align-middle font-semibold  text-gray-50 text-xs ">
                   <h4 className="pt-2 font-medium  text-gray-50  text-center mb-2 border-b-2 py-2 text-sm">
                     Hightlights
@@ -234,9 +233,12 @@ export default function Home() {
                   <li className=" font-semibold  text-gray-50  py-3 ">• CETIP Certification</li>
                  
                 </ul>
+                </div>
               </div>
+    
+             
+            
             </div>
-
           </div>
           <h3 className="pt-8 px-8 sm:pl-0 font-normal  text-gray-50  text-left mb-5">
             Execution Services
@@ -262,25 +264,25 @@ export default function Home() {
           <div className=" flex flex-col sm:flex-row  justify-between items-center  text-center">
 
             <div className=" flex flex-col basis-1/2 sm:basis-1/7  py-3  text-gray-50">
-              <img class="h-auto w-auto" src="div.e-con-inner.png" alt="logo" />
+              <img class="img" width="162" height="106" src="div.e-con-inner.png" alt="logo" />
             </div>
             <div className=" flex flex-col basis-1/2 sm:basis-1/7  py-3  text-gray-50">
-              <img class="h-auto w-auto" src="div.e-con-inner-1.png" alt="logo" />
+              <img class="img"width="162" height="106" src="div.e-con-inner-1.png" alt="logo" />
             </div>
             <div className=" flex flex-col basis-1/2 sm:basis-1/7  py-3  text-gray-50">
-              <img class="h-auto w-auto" src="div.e-con-inner-2.png" alt="logo" />
+              <img class="img" width="165" height="106" src="div.e-con-inner-2.png" alt="logo" />
             </div>
             <div className=" flex flex-col basis-1/2 sm:basis-1/7  py-3  text-gray-50">
-              <img class="h-auto w-auto" src="div.e-con-inner-3.png" alt="logo" />
+              <img class="img" width="161" height="106" src="div.e-con-inner-3.png" alt="logo" />
             </div>
             <div className=" flex flex-col basis-1/2 sm:basis-1/7  py-3  text-gray-50">
-              <img class="h-auto w-auto" src="div.e-con-inner-4.png" alt="logo" />
+              <img class="img" width="161" height="106" src="div.e-con-inner-4.png" alt="logo" />
             </div>
             <div className=" flex flex-col basis-1/2 sm:basis-1/7  py-3  text-gray-50">
-              <img class="h-auto w-auto" src="div.e-con-inner-5.png" alt="logo" />
+              <img class="img" width="163" height="106" src="div.e-con-inner-5.png" alt="logo" />
             </div>
             <div className=" flex flex-col basis-1/2 sm:basis-1/7  py-3  text-gray-50">
-              <img class="h-auto w-auto" src="div.e-con-inner-6.png" alt="logo" />
+              <img class="img" height="107" width="163" src="div.e-con-inner-6.png" alt="logo" />
             </div>
           </div>
           <h3 className="t-8 px-8 sm:pl-0 font-normal  text-gray-50  text-left  my-5">

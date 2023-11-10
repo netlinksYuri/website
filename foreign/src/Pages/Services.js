@@ -11,43 +11,41 @@ export default function About() {
        <header>
         {/* sessa 1*/}
         <div className=" ss1 px-8 sm:px-16 pt-5" >
-          {/* navegador*/}
-          <nav class=" header max-w-6xl mx-auto" >
-            <div class="   ">
-              <div class="   ">
-
-                <div class=" flex-row h-16 flex items-center justify-between sm:items-stretch sm:justify-between">
-                  <div class=" items-center ">
-                    <img class="h-16 w-auto" src="Logo NF_Positivo1 1.png" alt="logo" />
-                  </div>
-                  <div class="flex-1  items-center justify-center hidden sm:ml-6 sm:block">
-                  <div class="flex h-16 items-center justify-center nav ">
-                                            <a href="/nri" class=" font-bold px-4 py-2 text-xs ">HOME</a>
-                                            <a href="/nri/about" class="  font-bold px-4 py-2 text-xs ">ABOUT</a>
-                                            <a href="/nri/products" class="  font-bold px-4 py-2 text-xs ">PRODUCTS</a>
-                                            <a href="/nri/services" class="  font-bold px-4 py-2 text-xs ">SERVICES</a>
-                                            <a href="/nri/contact" class="  font-bold px-4 py-2 text-xs ">CONTACT</a>
+           {/* navegador*/}
+           <nav class=" header max-w-6xl mx-auto" >
+                        <div class="   ">
+                            <div class="   ">
+                              
+                                <div class=" flex-row h-16 flex items-center justify-between sm:items-stretch sm:justify-between">
+                                    <div class=" items-center ">
+                                        <img class="h-20 w-auto" src="Logo NF_Positivo1 1.png" alt="logo" />
+                                    </div>
+                                    <div class="flex-1  items-center justify-center hidden sm:ml-6 sm:block">
+                                        <div class="flex h-16 items-center justify-center nav ">
+                                        <a href="/" class=" font-bold px-4 py-2 text-xs ">HOME</a>
+                                            <a href="/about" class="  font-bold px-4 py-2 text-xs ">ABOUT</a>
+                                            <a href="/products" class="  font-bold px-4 py-2 text-xs ">PRODUCTS</a>
+                                            <a href="/services" class="  font-bold px-4 py-2 text-xs ">SERVICES</a>
+                                            <a href="/contact" class="  font-bold px-4 py-2 text-xs ">CONTACT</a>
                                         </div>
-                  </div>
-                  <div class="flex  items-center justify-center sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                                    </div>
+                                    <div class="flex  items-center justify-center sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                                         <a href="/#forms" class=" text-xs btn-forms text-white py-2 px-6 font-medium" aria-current="page">Get in touch</a>
                                     </div>
-                </div>
-                <div class="flex-1  items-center justify-center sm:hidden block ">
-                  <div class="flex h-16 items-center justify-center nav ">
-                    <a href="/" class=" font-bold px-2 py-2 text-sx font-bold">HOME</a>
-                    <a href="/About" class="font-bold  px-2 py-2 text-sx font-bold">ABOUT</a>
-                    <a href="/Products" class="font-bold  px-2 py-2 text-sx font-bold">PRODUCTS</a>
-                    <a href="/Services" class="font-bold  px-2 py-2 text-sx font-bold">SERVICES</a>
-                    <a href="/Contact" class="font-bold  px-2 py-2 text-sx font-bold">CONTACT</a>
-                  </div>
-                </div>
-              </div>
-            </div>
+                                </div>
+                                <div class="flex-1  items-center justify-center sm:hidden block ">
+                                        <div class="flex h-16 items-center justify-center nav ">
+                                        <a href="/" class=" font-bold px-4 py-2 text-xs ">HOME</a>
+                                            <a href="/about" class="  font-bold px-4 py-2 text-xs ">ABOUT</a>
+                                            <a href="/products" class="  font-bold px-4 py-2 text-xs ">PRODUCTS</a>
+                                            <a href="/services" class="  font-bold px-4 py-2 text-xs ">SERVICES</a>
+                                            <a href="/contact" class="  font-bold px-4 py-2 text-xs ">CONTACT</a>
+                                        </div>
+                                        </div>
+                            </div>
+                        </div>
 
-
-
-          </nav>
+                    </nav>
 
           {/* sessao 1 - Conteudo*/}
 
