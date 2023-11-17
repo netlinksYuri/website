@@ -34,12 +34,12 @@ export default function About() {
                                     </div>
                                 </div>
                                 <div class="flex-1  items-center justify-center sm:hidden block ">
-                                        <div class="flex h-16 items-center justify-center nav ">
-                                        <a href="/" class=" font-bold px-4 py-2 text-xs ">HOME</a>
-                                            <a href="/about" class="  font-bold px-4 py-2 text-xs ">ABOUT</a>
-                                            <a href="/products" class="  font-bold px-4 py-2 text-xs ">PRODUCTS</a>
-                                            <a href="/services" class="  font-bold px-4 py-2 text-xs ">SERVICES</a>
-                                            <a href="/contact" class="  font-bold px-4 py-2 text-xs ">CONTACT</a>
+                                <div class="flex h-16 items-center justify-center nav ">
+                                        <a href="/" class=" font-bold px-2 py-2 text-xs ">HOME</a>
+                                            <a href="/about" class="  font-bold px-2 py-2 text-xs ">ABOUT</a>
+                                            <a href="/products" class="  font-bold px-2 py-2 text-xs ">PRODUCTS</a>
+                                            <a href="/services" class="  font-bold px-2 py-2 text-xs ">SERVICES</a>
+                                            <a href="/contact" class="  font-bold px-2 py-2 text-xs ">CONTACT</a>
                                         </div>
                                         </div>
                             </div>
