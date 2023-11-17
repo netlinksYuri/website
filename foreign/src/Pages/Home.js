@@ -203,7 +203,7 @@ export default function Home() {
                 Fixed income
               </h3>
 
-              <div className="flex  basis-1/2  border-solid border-2 card1 py-6 px-8 text-left">
+              <div className="flex  basis-1/2  border-solid border-2 card1 py-6 px-0 sm:px-8 text-left">
 
                 <div className=" flex  basis-1/2  py-6 px-8 text-left">
                 <ul className=" flex flex-col justify-center align-middle font-semibold  text-gray-50 text-xs ">
@@ -222,7 +222,7 @@ export default function Home() {
                 </div>
 
                 <div className="flex align-top basis-1/2  py-6 px-8 text-left">
-                <ul className=" flex flex-col justify-center align-middle font-semibold  text-gray-50 text-xs ">
+                <ul className=" flex flex-col justify-start sm:justify-center align-middle font-semibold  text-gray-50 text-xs ">
                   <h4 className="pt-2 font-medium  text-gray-50  text-center mb-2 border-b-2 py-2 text-sm">
                     Hightlights
                   </h4>
@@ -498,7 +498,7 @@ trade services:
           </div>
            {/* sessa 7 -Partner */}
        <div className="ss7 max-w-6xl mx-auto pt-4 pb-36 ">
-       <img className=" mx-auto" src="ss7-1.png" alt="logo" />
+       <img className=" mx-auto" src="mapa.jpg" alt="logo" />
        </div>
           {/* sessa 8 - Contact*/}
           <div className="ss8" id="forms">
