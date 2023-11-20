@@ -224,7 +224,7 @@ export default function Home() {
                 <div className="flex align-top basis-1/2  py-6 px-8 text-left">
                 <ul className=" flex flex-col justify-start sm:justify-center align-middle font-semibold  text-gray-50 text-xs ">
                   <h4 className="pt-2 font-medium  text-gray-50  text-center mb-2 border-b-2 py-2 text-sm">
-                    Hightlights
+                    Highlights
                   </h4>
                   <li className=" font-semibold  text-gray-50  py-3 ">• Best rates in the market;</li>
                   <li className=" font-semibold  text-gray-50  py-3 ">• Possibility of secondary market trading;</li>
