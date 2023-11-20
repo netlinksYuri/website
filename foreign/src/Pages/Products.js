@@ -30,7 +30,7 @@ export default function Products() {
                                         </div>
                                     </div>
                                     <div class="flex  items-center justify-center sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                                        <a href="/#forms" class=" text-xs btn-forms text-white py-2 px-6 font-medium" aria-current="page">Get in touch</a>
+                                        <a href="/contact" class=" text-sm btn-forms text-white py-2 px-8 font-medium" aria-current="page">Get in touch</a>
                                     </div>
                                 </div>
                                 <div class="flex-1  items-center justify-center sm:hidden block ">

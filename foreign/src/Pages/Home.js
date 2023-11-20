@@ -33,7 +33,7 @@ export default function Home() {
                                         </div>
                                     </div>
                                     <div class="flex  items-center justify-center sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                                        <a href="/#forms" class=" text-xs btn-forms text-white py-2 px-6 font-medium" aria-current="page">Get in touch</a>
+                                        <a href="/#forms" class=" text-sm btn-forms text-white py-2 px-8 font-medium" aria-current="page">Get in touch</a>
                                     </div>
                                 </div>
                                 <div class="flex-1  items-center justify-center sm:hidden block ">
@@ -189,12 +189,12 @@ export default function Home() {
               </h3>
               <div className="border-solid border-2 card1 py-6 px-8 text-left">
                 <ul className=" flex flex-col justify-center align-middle font-semibold  text-gray-50 text-xs ">
-                  <li className=" font-semibold  text-gray-50  py-3 ">• Commodities: Beef cattle, Coffee,
+                  <li className=" font-semibold  text-gray-50  py-2 ">• Commodities: Beef cattle, Coffee,
                     Soybeans, Corn, Ethanol, and Gold</li>
-                  <li className=" font-semibold  text-gray-50  py-3 ">• US Dollar and Mini Dollar</li>
-                  <li className=" font-semibold  text-gray-50  py-3 ">• Ibovespa and Mini Ibovespa</li>
-                  <li className=" font-semibold  text-gray-50  py-3 ">• FX Futures</li>
-                  <li className=" font-semibold  text-gray-50  py-3 ">• Equity Indexes Futures</li>
+                  <li className=" font-semibold  text-gray-50  py-2 ">• US Dollar and Mini Dollar</li>
+                  <li className=" font-semibold  text-gray-50  py-2 ">• Ibovespa and Mini Ibovespa</li>
+                  <li className=" font-semibold  text-gray-50  py-2 ">• FX Futures</li>
+                  <li className=" font-semibold  text-gray-50  py-2 ">• Equity Indexes Futures</li>
                 </ul>
               </div>
             </div>
@@ -203,34 +203,34 @@ export default function Home() {
                 Fixed income
               </h3>
 
-              <div className="flex  basis-1/2  border-solid border-2 card1 py-6 px-0 sm:px-8 text-left">
+              <div className="flex  basis-1/2  border-solid border-2 card1 py-4 px-0 sm:px-8 text-left">
 
-                <div className=" flex  basis-1/2  py-6 px-8 text-left">
-                <ul className=" flex flex-col justify-center align-middle font-semibold  text-gray-50 text-xs ">
-                  <h4 className="pt-2 font-medium  text-gray-50  text-center mb-2 border-b-2 py-2 text-sm">
+                <div className=" flex  basis-1/2  sm:pb-3  px-8 text-left">
+                <ul className=" flex flex-col   font-semibold  text-gray-50 text-xs ">
+                  <h4 className="pt-2 font-medium  text-gray-50  text-center mb-2 border-b-2 pt-3 pb-1 text-sm">
                     Products
                   </h4>
-                  <li className=" font-semibold  text-gray-50  py-1 ">• CDB (Certificate of Bank Deposit);</li>
-                  <li className=" font-semibold  text-gray-50  py-1 ">• LC (Credit Letter);</li>
-                  <li className=" font-semibold  text-gray-50  py-1 ">• LCI (Real Estate Credit Bills);</li>
-                  <li className=" font-semibold  text-gray-50  py-1 ">• LCA (Agribusiness Credit Bills);</li>
-                  <li className=" font-semibold  text-gray-50  py-1 ">• CRI (Real Estate Receivables Certificate);</li>
-                  <li className=" font-semibold  text-gray-50  py-1 ">• CRA (Agribusiness Receivables Certificate);</li>
-                  <li className=" font-semibold  text-gray-50  py-1 ">• Corporate Bonds;</li>
-                  <li className=" font-semibold  text-gray-50  py-1 ">• Government Bonds.</li>
+                  <li className=" font-semibold  text-gray-50  py-2 ">• CDB (Certificate of Bank Deposit);</li>
+                  <li className=" font-semibold  text-gray-50  py-2 ">• LC (Credit Letter);</li>
+                  <li className=" font-semibold  text-gray-50  py-2 ">• LCI (Real Estate Credit Bills);</li>
+                  <li className=" font-semibold  text-gray-50  py-2 ">• LCA (Agribusiness Credit Bills);</li>
+                  <li className=" font-semibold  text-gray-50  py-2 ">• CRI (Real Estate Receivables Certificate);</li>
+                  <li className=" font-semibold  text-gray-50  py-2 ">• CRA (Agribusiness Receivables Certificate);</li>
+                  <li className=" font-semibold  text-gray-50  py-2 ">• Corporate Bonds;</li>
+                  <li className=" font-semibold  text-gray-50  py-2 ">• Government Bonds.</li>
                 </ul>
                 </div>
 
-                <div className="flex align-top basis-1/2  py-6 px-8 text-left">
-                <ul className=" flex flex-col justify-start sm:justify-center align-middle font-semibold  text-gray-50 text-xs ">
-                  <h4 className="pt-2 font-medium  text-gray-50  text-center mb-2 border-b-2 py-2 text-sm">
+                <div className="flex align-top basis-1/2  px-8 text-left">
+                <ul className=" flex flex-col   font-semibold  text-gray-50 text-xs ">
+                  <h4 className="pt-2 font-medium  text-gray-50  text-center mb-2 border-b-2 pt-3 pb-1 text-sm">
                     Highlights
                   </h4>
-                  <li className=" font-semibold  text-gray-50  py-3 ">• Best rates in the market;</li>
-                  <li className=" font-semibold  text-gray-50  py-3 ">• Possibility of secondary market trading;</li>
-                  <li className=" font-semibold  text-gray-50  py-3 ">• Team focused on seeking opportunities;</li>
-                  <li className=" font-semibold  text-gray-50  py-3 ">• More than 500 products available</li>
-                  <li className=" font-semibold  text-gray-50  py-3 ">• CETIP Certification</li>
+                  <li className=" font-semibold  text-gray-50  py-2 ">• Best rates in the market;</li>
+                  <li className=" font-semibold  text-gray-50  py-2 ">• Possibility of secondary market trading;</li>
+                  <li className=" font-semibold  text-gray-50  py-2 ">• Team focused on seeking opportunities;</li>
+                  <li className=" font-semibold  text-gray-50  py-2 ">• More than 500 products available</li>
+                  <li className=" font-semibold  text-gray-50  py-2 ">• CETIP Certification</li>
                  
                 </ul>
                 </div>
@@ -372,7 +372,7 @@ export default function Home() {
               <h4 className=" font-medium   text-center mb-2  py-4 text-lg">
               Research
               </h4>
-              <p className="border-b-2 text-sm font-normal pb-3" >
+              <p className="border-b-2 text-sm font-normal pb-3 text-justify " >
               Our teams can help you understand the
 market and infrastructure to assess your
 decision to invest locally and have you set for
@@ -406,7 +406,7 @@ collection, certification and early prod tests
               <h4 className=" font-medium   text-center mb-2  py-4 text-lg">
               Execution
               </h4>
-              <p className="border-b-2 text-sm font-normal pb-3" >
+              <p className="border-b-2 text-sm font-normal pb-3 text-justify " >
               Our dedicated team does a proactive, careful
 and high-quality real-time monitoring and can
 help tailor made the best trading solution for
@@ -432,7 +432,7 @@ your needs:
               <h4 className=" font-medium   text-center mb-2  py-4 text-lg">
               Post Trade
               </h4>
-              <p className="border-b-2 text-sm font-normal pb-3" >
+              <p className="border-b-2 text-sm font-normal pb-3 text-justify " >
               Besides all services provided by our efficient
 middle and back-office teams, Nova Futura tech
 teams can also offer the below electronic post

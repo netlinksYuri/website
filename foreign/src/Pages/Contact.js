@@ -31,7 +31,7 @@ export default function Contact() {
                                         </div>
                                     </div>
                                     <div class="flex  items-center justify-center sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                                        <a href="/#forms" class=" text-xs btn-forms text-white py-2 px-6 font-medium" aria-current="page">Get in touch</a>
+                                        <a href="/contact" class=" text-sm btn-forms text-white py-2 px-8 font-medium" aria-current="page">Get in touch</a>
                                     </div>
                                 </div>
                                 <div class="flex-1  items-center justify-center sm:hidden block ">
@@ -92,7 +92,7 @@ export default function Contact() {
             </div>
             <div className='flex flex-row text-white items-center   mb-9'>
                <div>
-               <img class="h-auto w-auto   pr-4 " src="7.png" alt="logo" />
+               <img class="h-auto w-auto   pr-4 " src="face.png" alt="logo" />
                </div>
                <div>
                   <p>@/novafuturanewf</p>

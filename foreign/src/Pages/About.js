@@ -23,7 +23,7 @@ export default function About() {
                                     </div>
                                     <div class="flex-1  items-center justify-center hidden sm:ml-6 sm:block">
                                         <div class="flex h-16 items-center justify-center nav ">
-                                        <a href="" class=" font-bold px-4 py-2 text-xs ">HOME</a>
+                                        <a href="/" class=" font-bold px-4 py-2 text-xs ">HOME</a>
                                             <a href="/about" class="  font-bold px-4 py-2 text-xs ">ABOUT</a>
                                             <a href="/products" class="  font-bold px-4 py-2 text-xs ">PRODUCTS</a>
                                             <a href="/services" class="  font-bold px-4 py-2 text-xs ">SERVICES</a>
@@ -31,7 +31,7 @@ export default function About() {
                                         </div>
                                     </div>
                                     <div class="flex  items-center justify-center sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                                        <a href="/#forms" class=" text-xs btn-forms text-white py-2 px-6 font-medium" aria-current="page">Get in touch</a>
+                                        <a href="/contact" class=" text-sm btn-forms text-white py-2 px-8 font-medium" aria-current="page">Get in touch</a>
                                     </div>
                                 </div>
                                 <div class="flex-1  items-center justify-center sm:hidden block ">
@@ -94,7 +94,7 @@ export default function About() {
                                 Futures Exchange)
                             </p>
                         </div>
-                        <div className="basis-1/12 line text-center flex justify-center flex-col mx-8 p-0">
+                        <div className="basis-2/12 line text-center flex justify-center flex-col mx-8 p-0">
                             <h2 className="text-white font-bold p-0">
                                 1983
                             </h2>
@@ -121,7 +121,7 @@ export default function About() {
                                 and Cattle modalities. Hedge of Commodities.
                             </p>
                         </div>
-                        <div className="basis-1/12 line text-center flex justify-center flex-col mx-8 p-0">
+                        <div className="basis-2/12 line text-center flex justify-center flex-col mx-8 p-0">
                             <h2 className="text-white font-bold p-0">
                                 1996
                             </h2>
@@ -161,7 +161,7 @@ export default function About() {
 
 
                         </div>
-                        <div className="basis-1/12 line text-center flex justify-center flex-col mx-8 p-0">
+                        <div className="basis-2/12 line text-center flex justify-center flex-col mx-8 p-0">
                             <h3 className="text-white font-semibold px-8">
                                 2007
                             </h3>
@@ -222,7 +222,7 @@ export default function About() {
 
 
                         </div>
-                        <div className="basis-1/12 line text-center flex justify-center flex-col mx-8 p-0">
+                        <div className="basis-2/12 line text-center flex justify-center flex-col mx-8 p-0">
                             <h2 className="text-white font-bold p-0">
                                 2015
                             </h2>
@@ -286,7 +286,7 @@ export default function About() {
                                 Poffering the main products for digital retail.
                             </p>
                         </div>
-                        <div className="basis-1/12 line text-center flex justify-center flex-col mx-8 p-0">
+                        <div className="basis-2/12 line text-center flex justify-center flex-col mx-8 p-0">
                             <h2 className="text-white font-bold p-0">
                                 2018
                             </h2>
@@ -307,7 +307,7 @@ export default function About() {
 
 
                         </div>
-                        <div className="basis-1/12 line text-center flex justify-center flex-col mx-8 ">
+                        <div className="basis-2/12 line text-center flex justify-center flex-col mx-8 ">
                             <h3 className="text-white font-semibold px-8">
                                 2020
                             </h3>
@@ -388,7 +388,7 @@ export default function About() {
                             <h3 className=" pt-2 font-semibold sm:text-md text-lg text-gray-50 text-left mb-2 ">
                                 Broker and Investment Manager
                             </h3>
-                            <div className="flex flex-col basis-6/12 text-left justify-center items-center  border-solid border-2 card1 py-6  text-left sm:px-24 px-12 ">
+                            <div className="flex flex-col basis-6/12 text-left justify-center items-center  border-solid border-2 card1b py-6  text-left sm:px-24 px-12 ">
                                 <h3 className="text-white text-left font-light">
                                 
 
@@ -408,7 +408,7 @@ export default function About() {
                             <h3 className="pt-2 font-normal  text-gray-50  text-left mb-2">
                                 <br />
                             </h3>
-                            <div className=" flex  justify-center items-center border-solid border-2 card1 py-6 sm:px-8 px-12 text-left">
+                            <div className=" flex  justify-center items-center border-solid border-2 card1b py-6 sm:px-8 px-12 text-left">
                                 <h3 className="text-white text-left font-light">
                                     • B2C<br />
                                     • B2B<br />
