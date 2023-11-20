@@ -153,7 +153,7 @@ export default function Home() {
       </div>
 
       {/* sessao 3 - Products*/}
-      {/* sessao 2 - Products*/}
+  
 
      <div className="ss3  py-16">
         <div className=" max-w-6xl sm:max-md sm:mx-auto  ">
