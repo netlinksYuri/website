@@ -19,7 +19,7 @@ export default function About() {
                               
                                 <div class=" flex-row h-16 flex items-center justify-between sm:items-stretch sm:justify-between">
                                     <div class=" items-center ">
-                                        <img class="h-20 w-auto" src="Logo NF_Positivo1 1.png" alt="logo" />
+                                        <img class="h-20 w-auto" src="img/Logo NF_Positivo1 1.png" alt="logo" />
                                     </div>
                                     <div class="flex-1  items-center justify-center hidden sm:ml-6 sm:block">
                                         <div class="flex h-16 items-center justify-center nav ">
