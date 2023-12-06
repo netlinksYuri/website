@@ -13,7 +13,7 @@ text-transform: uppercase;
 }
 .ss1{
   height: 800px;
-  background-image: url(https://inrnovafutura.wpenginepowered.com/wp-content/uploads/2023/09/Group-42.jpg);
+  background-image: url(../../../public/nri/ss1-background.png);
 }
 
 .ss1 h1{
@@ -176,13 +176,13 @@ background: #222f45;
 }
 
 .ss4{
-  background-image: url(https://foreign.novafutura.com.br/wp-content/uploads/2023/11/base-s4-1.png);
+  background-image: url(../../../public/nri/ss4.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .ss8{
-  background-image: url(https://foreign.novafutura.com.br/wp-content/uploads/2023/11/ar-livre-azul-novo-edificio-da-baixa-1-1.png);
+  background-image: url(../../../public/nri/ss8.png);
   background-repeat: no-repeat;
   background-size: cover;
 }

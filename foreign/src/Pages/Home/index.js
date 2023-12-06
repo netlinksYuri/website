@@ -1,5 +1,4 @@
-import Forms from "../componets/forms";
-import Contacts from "../componets/contacts";
+import Contacts from "../../componets/contacts";
 import "./Home.css";
 import Helmet from "react-helmet";
 export default function Home() {

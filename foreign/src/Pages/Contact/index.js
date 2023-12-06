@@ -1,4 +1,4 @@
-import Contacts from "../componets/contacts";
+import Contacts from "../../componets/contacts";
 import "./Contact.css";
 import Helmet from "react-helmet";
 export default function Contact() {
